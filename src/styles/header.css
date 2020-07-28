@@ -20,6 +20,7 @@
     z-index: 1000;
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: hsl(222deg 56% 96%) !important;
   }
 }
 .nav-link {
@@ -31,4 +32,7 @@
 .tag-line {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+#dropdown {
+  background-color: hsl(222deg 56% 96%) !important;
 }

@@ -39,8 +39,8 @@ const Example = (props) => {
         <Container>
           <img
             className="logo"
-            style={{ width: "80px", height: "80px" }}
-            src="images/logo.png"
+            style={{ height: "70px" }}
+            src="images/finallogo.png"
             alt="logo"
           />
           <NavbarBrand className="brand " href="/">
