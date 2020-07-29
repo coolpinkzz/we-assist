@@ -2,6 +2,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
 
+body {
+  overflow-x: hidden;
+}
 .brand {
   font-family: "Krona One", sans-serif;
   margin-left: 10px;
