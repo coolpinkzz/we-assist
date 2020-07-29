@@ -13,6 +13,13 @@ import {
   DropdownItem,
   NavbarText,
 } from "reactstrap";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faHome,
+  faCog,
+  faUser,
+  faPhoneSquare,
+} from "@fortawesome/free-solid-svg-icons";
 import { Container } from "react-bootstrap";
 import "../styles/header.css";
 import "../App.css";
@@ -25,6 +32,7 @@ const Example = (props) => {
     color: "#0C0032",
     padding: "10px",
     fontFamily: "'Poppins', sans-serif",
+    marginLeft: "10px",
   };
 
   return (
@@ -57,11 +65,14 @@ const Example = (props) => {
             <Nav className="ml-auto " navbar>
               <NavItem>
                 <NavLink style={mystyle} href="/">
+                  <FontAwesomeIcon icon={faHome} />
                   Home
                 </NavLink>
               </NavItem>
               <UncontrolledDropdown nav inNavbar>
                 <DropdownToggle style={mystyle} nav caret>
+                  {" "}
+                  <FontAwesomeIcon icon={faCog} />
                   Services
                 </DropdownToggle>
                 <DropdownMenu
@@ -81,11 +92,13 @@ const Example = (props) => {
               </UncontrolledDropdown>
               <NavItem>
                 <NavLink style={mystyle} href="/aboutus">
+                  <FontAwesomeIcon icon={faUser} />
                   About us
                 </NavLink>
               </NavItem>
               <NavItem>
                 <NavLink style={mystyle} href="/contactus">
+                  <FontAwesomeIcon icon={faPhoneSquare} />
                   Contact us
                 </NavLink>
               </NavItem>
