@@ -50,7 +50,9 @@ class Home extends Component {
                 methods of online financial work through us, you can track your
                 profit without any hurdle.
               </p>
-              <button className="btn-primary rounded">Go to Service </button>
+              <button className="btn btn-secondary rounded">
+                Go to Service{" "}
+              </button>
             </div>
             <div className="col-12 col-sm-6 col-md-6 text-center">
               <img id="sto" src="images/32088970.jpg" alt="switch to online" />
@@ -72,7 +74,9 @@ class Home extends Component {
                 technologies to expand your business name and gain more
                 customers.
               </p>
-              <button className="btn-primary rounded">Go to Service </button>
+              <button className="btn btn-secondary rounded">
+                Go to Service{" "}
+              </button>
             </div>
           </div>
           <div className="row mb-3">
@@ -87,7 +91,9 @@ class Home extends Component {
                 demands and needs and most importantly we will help you with the
                 upcoming market strategies and changes.
               </p>
-              <button className="btn-primary rounded">Go to Service </button>
+              <button className="btn btn-secondary rounded">
+                Go to Service{" "}
+              </button>
             </div>
             <div className="col-12 col-sm-6 col-md-6 text-center">
               <img id="mr" src="images/21342941.jpg" alt="switch to online" />
@@ -101,15 +107,16 @@ class Home extends Component {
               <h2>Path to Start</h2>
               <hr></hr>
               <p className="text-left">
-                A great service to introduce your business to those who need
-                them and increase your brand value. It is a method for those
-                businesses which have online exposure but are still unable to
-                attract right customers. Managing your ads on various platforms
-                and SEO are new ways of digital marketing. Here we use various
-                technologies to expand your business name and gain more
-                customers.
+                About to begin a startup? No worries, we will design the best
+                plan to make your ideas shine. From introducing you to new
+                services and tools to setting up online services for you, we can
+                do everything you need. Working on details to establish your
+                business, we will make sure to bring the best out of it. Choose
+                us to make your startup different from your competitors.
               </p>
-              <button className="btn-primary rounded">Go to Service </button>
+              <button className="btn btn-secondary rounded">
+                Go to Service{" "}
+              </button>
             </div>
           </div>
         </Container>
