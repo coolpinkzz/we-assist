@@ -19,7 +19,7 @@ class Home extends Component {
               want our help.
             </p>
           </div>
-          <div className="col-12 col-sm-6 mt-2">
+          <div className="col-12 col-sm-6 mt-2 pl-5">
             <img
               className="d-none d-sm-block"
               id="poster"
@@ -33,6 +33,83 @@ class Home extends Component {
           <div className="row mt-5 justify-content-center">
             <div className="">
               <img id="iag" src="images/iac.png" alt="Ideal action and Goal" />
+            </div>
+          </div>
+          <div className="text-center">
+            <h1>OUR SERVICES</h1>
+          </div>
+          <div className="row mb-3">
+            <div className="col-12 col-sm-6 col-md-6 text-center">
+              <h2>Switch to Online</h2>
+              <hr></hr>
+              <p className="text-left">
+                Looking to take your offline business to online world? Let us
+                help you get there. Let us worry about all the work to take your
+                business online. We will make your personal website with the
+                exact information, requirements and products. By applying safe
+                methods of online financial work through us, you can track your
+                profit without any hurdle.
+              </p>
+              <button className="btn-primary rounded">Go to Service </button>
+            </div>
+            <div className="col-12 col-sm-6 col-md-6 text-center">
+              <img id="sto" src="images/32088970.jpg" alt="switch to online" />
+            </div>
+          </div>
+          <div className="row mb-3">
+            <div className="col-12 col-sm-6 col-md-6 text-center  order-sm-first">
+              <img id="dm" src="images/8693343.jpg" alt="digital marketing" />
+            </div>
+            <div className="col-12 col-sm-6 col-md-6 text-center order-first">
+              <h2>Marketing Scheme</h2>
+              <hr></hr>
+              <p className="text-left">
+                A great service to introduce your business to those who need
+                them and increase your brand value. It is a method for those
+                businesses which have online exposure but are still unable to
+                attract right customers. Managing your ads on various platforms
+                and SEO are new ways of digital marketing. Here we use various
+                technologies to expand your business name and gain more
+                customers.
+              </p>
+              <button className="btn-primary rounded">Go to Service </button>
+            </div>
+          </div>
+          <div className="row mb-3">
+            <div className="col-12 col-sm-6 col-md-6 text-center">
+              <h2>Business Analysis</h2>
+              <hr></hr>
+              <p className="text-left">
+                To know the type of market you're about to put your business in
+                is very important. So we will, with our sources, research about
+                the market of your business, about your products and goods,
+                compare the prices, information about your possible competitors,
+                demands and needs and most importantly we will help you with the
+                upcoming market strategies and changes.
+              </p>
+              <button className="btn-primary rounded">Go to Service </button>
+            </div>
+            <div className="col-12 col-sm-6 col-md-6 text-center">
+              <img id="mr" src="images/21342941.jpg" alt="switch to online" />
+            </div>
+          </div>
+          <div className="row mb-3">
+            <div className="col-12 col-sm-6 col-md-6 text-center  order-sm-first">
+              <img id="pts" src="images/28135720.jpg" alt="digital marketing" />
+            </div>
+            <div className="col-12 col-sm-6 col-md-6 text-center order-first">
+              <h2>Path to Start</h2>
+              <hr></hr>
+              <p className="text-left">
+                A great service to introduce your business to those who need
+                them and increase your brand value. It is a method for those
+                businesses which have online exposure but are still unable to
+                attract right customers. Managing your ads on various platforms
+                and SEO are new ways of digital marketing. Here we use various
+                technologies to expand your business name and gain more
+                customers.
+              </p>
+              <button className="btn-primary rounded">Go to Service </button>
             </div>
           </div>
         </Container>
