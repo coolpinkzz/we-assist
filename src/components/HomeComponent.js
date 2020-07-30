@@ -38,7 +38,10 @@ class Home extends Component {
           <div className="text-center">
             <h1>OUR SERVICES</h1>
           </div>
-          <div id="servicerow" className="row mb-3  border border-secondary">
+          <div
+            id="servicerow"
+            className="row mb-3 mx-1 border rounded pr-4 border-secondary"
+          >
             <div className="col-12 col-sm-6 col-md-6 text-center">
               <h2>Switch to Online</h2>
               <hr></hr>
@@ -54,11 +57,14 @@ class Home extends Component {
                 Go to Service{" "}
               </button>
             </div>
-            <div className="col-12 col-sm-6 col-md-6 text-center pr-5">
+            <div className="col-12  col-sm-6 col-md-6 text-center pr-5">
               <img id="sto" src="images/32088970.jpg" alt="switch to online" />
             </div>
           </div>
-          <div id="servicerow" className="row   mb-3 border border-secondary">
+          <div
+            id="servicerow"
+            className="row rounded mx-1  mb-3 border border-secondary"
+          >
             <div className="col-12 col-sm-6 col-md-6 text-center  order-sm-first">
               <img id="dm" src="images/8693343.jpg" alt="digital marketing" />
             </div>
@@ -79,7 +85,10 @@ class Home extends Component {
               </button>
             </div>
           </div>
-          <div id="servicerow" className="row   mb-3 border border-secondary">
+          <div
+            id="servicerow"
+            className="row rounded  mx-1 mb-3 border border-secondary"
+          >
             <div className="col-12 col-sm-6 col-md-6 text-center">
               <h2>Business Analysis</h2>
               <hr></hr>
@@ -99,7 +108,10 @@ class Home extends Component {
               <img id="mr" src="images/21342941.jpg" alt="switch to online" />
             </div>
           </div>
-          <div id="servicerow" className="row   mb-3 border border-secondary">
+          <div
+            id="servicerow"
+            className="row rounded mx-1  mb-3 border border-secondary"
+          >
             <div className="col-12 col-sm-6 col-md-6 text-center  order-sm-first">
               <img id="pts" src="images/28135720.jpg" alt="digital marketing" />
             </div>
