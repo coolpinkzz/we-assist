@@ -40,7 +40,11 @@ const Example = (props) => {
       <Navbar
         className="header shadow-sm p-3 "
         id="myHeader"
-        style={{ backgroundColor: "hsl(222deg 56% 96%)", height: "100px" }}
+        style={{
+          backgroundColor: "hsl(222deg 56% 96%)",
+          height: "100px",
+          width: "100%",
+        }}
         light
         expand="md"
       >
@@ -65,14 +69,18 @@ const Example = (props) => {
             <Nav className="ml-auto " navbar>
               <NavItem>
                 <NavLink style={mystyle} href="/">
-                  <FontAwesomeIcon icon={faHome} />
+                  <span>
+                    <FontAwesomeIcon icon={faHome} />{" "}
+                  </span>
                   Home
                 </NavLink>
               </NavItem>
               <UncontrolledDropdown nav inNavbar>
                 <DropdownToggle style={mystyle} nav caret>
                   {" "}
-                  <FontAwesomeIcon icon={faCog} />
+                  <span>
+                    <FontAwesomeIcon icon={faCog} />{" "}
+                  </span>
                   Services
                 </DropdownToggle>
                 <DropdownMenu
@@ -92,13 +100,19 @@ const Example = (props) => {
               </UncontrolledDropdown>
               <NavItem>
                 <NavLink style={mystyle} href="/aboutus">
-                  <FontAwesomeIcon icon={faUser} />
+                  <span>
+                    {" "}
+                    <FontAwesomeIcon icon={faUser} />{" "}
+                  </span>
                   About us
                 </NavLink>
               </NavItem>
               <NavItem>
                 <NavLink style={mystyle} href="/contactus">
-                  <FontAwesomeIcon icon={faPhoneSquare} />
+                  <span>
+                    {" "}
+                    <FontAwesomeIcon icon={faPhoneSquare} />{" "}
+                  </span>
                   Contact us
                 </NavLink>
               </NavItem>

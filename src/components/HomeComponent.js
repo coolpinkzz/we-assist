@@ -38,7 +38,7 @@ class Home extends Component {
           <div className="text-center">
             <h1>OUR SERVICES</h1>
           </div>
-          <div className="row mb-3 border border-secondary">
+          <div id="servicerow" className="row mb-3  border border-secondary">
             <div className="col-12 col-sm-6 col-md-6 text-center">
               <h2>Switch to Online</h2>
               <hr></hr>
@@ -50,7 +50,7 @@ class Home extends Component {
                 methods of online financial work through us, you can track your
                 profit without any hurdle.
               </p>
-              <button className="btn btn-secondary rounded shadow mb-4">
+              <button className="btn btn-secondary rounded  mb-4">
                 Go to Service{" "}
               </button>
             </div>
@@ -58,7 +58,7 @@ class Home extends Component {
               <img id="sto" src="images/32088970.jpg" alt="switch to online" />
             </div>
           </div>
-          <div className="row mb-3 border border-secondary">
+          <div id="servicerow" className="row   mb-3 border border-secondary">
             <div className="col-12 col-sm-6 col-md-6 text-center  order-sm-first">
               <img id="dm" src="images/8693343.jpg" alt="digital marketing" />
             </div>
@@ -79,7 +79,7 @@ class Home extends Component {
               </button>
             </div>
           </div>
-          <div className="row mb-3 border border-secondary">
+          <div id="servicerow" className="row   mb-3 border border-secondary">
             <div className="col-12 col-sm-6 col-md-6 text-center">
               <h2>Business Analysis</h2>
               <hr></hr>
@@ -99,7 +99,7 @@ class Home extends Component {
               <img id="mr" src="images/21342941.jpg" alt="switch to online" />
             </div>
           </div>
-          <div className="row mb-3 border border-secondary">
+          <div id="servicerow" className="row   mb-3 border border-secondary">
             <div className="col-12 col-sm-6 col-md-6 text-center  order-sm-first">
               <img id="pts" src="images/28135720.jpg" alt="digital marketing" />
             </div>
