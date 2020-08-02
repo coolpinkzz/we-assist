@@ -3,7 +3,6 @@ import "./App.css";
 import Example from "./components/HeaderComponent";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 
-import Contactus from "./components/ContactusComponent";
 import Aboutus from "./components/AboutusComponent";
 import Home from "./components/HomeComponent";
 import Footer from "./components/FooterComponent";
@@ -16,7 +15,6 @@ function App() {
         <Switch>
           <Route exact path="/" component={Home} />
           <Route path="/aboutus" component={Aboutus} />
-          <Route path="/contactus" component={Contactus} />
         </Switch>
         <Footer />
       </BrowserRouter>
