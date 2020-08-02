@@ -24,7 +24,6 @@ import {
 import { Container } from "react-bootstrap";
 import "../styles/header.css";
 import "../App.css";
-import { headroom } from "headroom";
 
 const Example = (props) => {
   const [isOpen, setIsOpen] = useState(false);

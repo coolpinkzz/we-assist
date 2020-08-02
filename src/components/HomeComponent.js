@@ -44,140 +44,128 @@ class Home extends Component {
               />
             </div>
           </div>
+        </Fade>
 
-          <Container>
-            <div className="row mt-5 justify-content-center">
-              <div>
+        <Container>
+          <div className="row mt-5 justify-content-center">
+            <div>
+              <img id="iag" src="images/iac.png" alt="Ideal action and Goal" />
+            </div>
+          </div>
+          <div className="text-center">
+            <h1>OUR SERVICES</h1>
+          </div>
+          <Fade left duration={1000}>
+            <div
+              id="servicerow"
+              className="row mb-3 mx-0 border rounded pr-4 border-secondary"
+            >
+              <div className="col-12 col-sm-6 col-md-6 text-center">
+                <h2>Switch to Online</h2>
+                <hr></hr>
+                <p className="text-sm-left text-center">
+                  Looking to take your offline business to online world? Let us
+                  help you get there. Let us worry about all the work to take
+                  your business online. We will make your personal website with
+                  the exact information, requirements and products. By applying
+                  safe methods of online financial work through us, you can
+                  track your profit without any hurdle.
+                </p>
+                <button className="btn btn-secondary rounded  mb-4">
+                  Go to Service{" "}
+                </button>
+              </div>
+              <div className="col-12  col-sm-6 col-md-6 text-center pr-5">
                 <img
-                  id="iag"
-                  src="images/iac.png"
-                  alt="Ideal action and Goal"
+                  id="sto"
+                  src="images/32088970.jpg"
+                  alt="switch to online"
                 />
               </div>
             </div>
-            <div className="text-center">
-              <h1>OUR SERVICES</h1>
+          </Fade>
+          <Fade right duration={1000}>
+            <div
+              id="servicerow"
+              className="row rounded mx-1  mb-3 border border-secondary"
+            >
+              <div className="col-12 col-sm-6 col-md-6 text-center  order-sm-first">
+                <img id="dm" src="images/8693343.jpg" alt="digital marketing" />
+              </div>
+              <div className="col-12 col-sm-6 col-md-6 text-center order-first">
+                <h2>Marketing Scheme</h2>
+                <hr></hr>
+                <p className="text-sm-left text-center">
+                  A great service to introduce your business to those who need
+                  them and increase your brand value. It is a method for those
+                  businesses which have online exposure but are still unable to
+                  attract right customers. Managing your ads on various
+                  platforms and SEO are new ways of digital marketing. Here we
+                  use various technologies to expand your business name and gain
+                  more customers.
+                </p>
+                <button className="btn btn-secondary rounded shadow">
+                  Go to Service{" "}
+                </button>
+              </div>
             </div>
-            <Fade left duration={1000}>
-              <div
-                id="servicerow"
-                className="row mb-3 mx-0 border rounded pr-4 border-secondary"
-              >
-                <div className="col-12 col-sm-6 col-md-6 text-center">
-                  <h2>Switch to Online</h2>
-                  <hr></hr>
-                  <p className="text-sm-left text-center">
-                    Looking to take your offline business to online world? Let
-                    us help you get there. Let us worry about all the work to
-                    take your business online. We will make your personal
-                    website with the exact information, requirements and
-                    products. By applying safe methods of online financial work
-                    through us, you can track your profit without any hurdle.
-                  </p>
-                  <button className="btn btn-secondary rounded  mb-4">
-                    Go to Service{" "}
-                  </button>
-                </div>
-                <div className="col-12  col-sm-6 col-md-6 text-center pr-5">
-                  <img
-                    id="sto"
-                    src="images/32088970.jpg"
-                    alt="switch to online"
-                  />
-                </div>
+          </Fade>
+          <Fade left duration={1000}>
+            <div
+              id="servicerow"
+              className="row rounded  mx-1 mb-3 border border-secondary"
+            >
+              <div className="col-12 col-sm-6 col-md-6 text-center">
+                <h2>Business Analysis</h2>
+                <hr></hr>
+                <p className="text-sm-left text-center">
+                  To know the type of market you're about to put your business
+                  in is very important. So we will, with our sources, research
+                  about the market of your business, about your products and
+                  goods, compare the prices, information about your possible
+                  competitors, demands and needs and most importantly we will
+                  help you with the upcoming market strategies and changes.
+                </p>
+                <button className="btn btn-secondary rounded shadow">
+                  Go to Service{" "}
+                </button>
               </div>
-            </Fade>
-            <Fade right duration={1000}>
-              <div
-                id="servicerow"
-                className="row rounded mx-1  mb-3 border border-secondary"
-              >
-                <div className="col-12 col-sm-6 col-md-6 text-center  order-sm-first">
-                  <img
-                    id="dm"
-                    src="images/8693343.jpg"
-                    alt="digital marketing"
-                  />
-                </div>
-                <div className="col-12 col-sm-6 col-md-6 text-center order-first">
-                  <h2>Marketing Scheme</h2>
-                  <hr></hr>
-                  <p className="text-sm-left text-center">
-                    A great service to introduce your business to those who need
-                    them and increase your brand value. It is a method for those
-                    businesses which have online exposure but are still unable
-                    to attract right customers. Managing your ads on various
-                    platforms and SEO are new ways of digital marketing. Here we
-                    use various technologies to expand your business name and
-                    gain more customers.
-                  </p>
-                  <button className="btn btn-secondary rounded shadow">
-                    Go to Service{" "}
-                  </button>
-                </div>
+              <div className="col-12 col-sm-6 col-md-6 text-center">
+                <img id="mr" src="images/21342941.jpg" alt="switch to online" />
               </div>
-            </Fade>
-            <Fade left duration={1000}>
-              <div
-                id="servicerow"
-                className="row rounded  mx-1 mb-3 border border-secondary"
-              >
-                <div className="col-12 col-sm-6 col-md-6 text-center">
-                  <h2>Business Analysis</h2>
-                  <hr></hr>
-                  <p className="text-sm-left text-center">
-                    To know the type of market you're about to put your business
-                    in is very important. So we will, with our sources, research
-                    about the market of your business, about your products and
-                    goods, compare the prices, information about your possible
-                    competitors, demands and needs and most importantly we will
-                    help you with the upcoming market strategies and changes.
-                  </p>
-                  <button className="btn btn-secondary rounded shadow">
-                    Go to Service{" "}
-                  </button>
-                </div>
-                <div className="col-12 col-sm-6 col-md-6 text-center">
-                  <img
-                    id="mr"
-                    src="images/21342941.jpg"
-                    alt="switch to online"
-                  />
-                </div>
+            </div>
+          </Fade>
+          <Fade right duration={1000}>
+            <div
+              id="servicerow"
+              className="row rounded mx-1  mb-3 border border-secondary"
+            >
+              <div className="col-12 col-sm-6 col-md-6 text-center  order-sm-first">
+                <img
+                  id="pts"
+                  src="images/28135720.jpg"
+                  alt="digital marketing"
+                />
               </div>
-            </Fade>
-            <Fade right duration={1000}>
-              <div
-                id="servicerow"
-                className="row rounded mx-1  mb-3 border border-secondary"
-              >
-                <div className="col-12 col-sm-6 col-md-6 text-center  order-sm-first">
-                  <img
-                    id="pts"
-                    src="images/28135720.jpg"
-                    alt="digital marketing"
-                  />
-                </div>
-                <div className="col-12 col-sm-6 col-md-6 text-center order-first">
-                  <h2>Path to Start</h2>
-                  <hr></hr>
-                  <p className="text-sm-left text-center">
-                    About to begin a startup? No worries, we will design the
-                    best plan to make your ideas shine. From introducing you to
-                    new services and tools to setting up online services for
-                    you, we can do everything you need. Working on details to
-                    establish your business, we will make sure to bring the best
-                    out of it. Choose us to make your startup different from
-                    your competitors.
-                  </p>
-                  <button className="btn btn-secondary rounded shadow">
-                    Go to Service{" "}
-                  </button>
-                </div>
+              <div className="col-12 col-sm-6 col-md-6 text-center order-first">
+                <h2>Path to Start</h2>
+                <hr></hr>
+                <p className="text-sm-left text-center">
+                  About to begin a startup? No worries, we will design the best
+                  plan to make your ideas shine. From introducing you to new
+                  services and tools to setting up online services for you, we
+                  can do everything you need. Working on details to establish
+                  your business, we will make sure to bring the best out of it.
+                  Choose us to make your startup different from your
+                  competitors.
+                </p>
+                <button className="btn btn-secondary rounded shadow">
+                  Go to Service{" "}
+                </button>
               </div>
-            </Fade>
-          </Container>
-        </Fade>
+            </div>
+          </Fade>
+        </Container>
       </div>
     );
   }

@@ -1,4 +1,4 @@
-import React, { StrictMode } from "react";
+import React from "react";
 import "./App.css";
 import Example from "./components/HeaderComponent";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
