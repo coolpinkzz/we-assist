@@ -15,6 +15,10 @@ function App() {
         <Switch>
           <Route exact path="/" component={Home} />
           <Route path="/aboutus" component={Aboutus} />
+          <Route path="/switch-to-online" component={Aboutus} />
+          <Route path="/marketing-scheme" component={Aboutus} />
+          <Route path="/business-analysis" component={Aboutus} />
+          <Route path="/path-to-start" component={Aboutus} />
         </Switch>
         <Footer />
       </BrowserRouter>

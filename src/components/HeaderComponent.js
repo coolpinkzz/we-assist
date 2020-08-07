@@ -40,7 +40,7 @@ const Example = (props) => {
     <div>
       <Headroom>
         <Navbar
-          className="header shadow-sm p-3 "
+          className="header  p-3 "
           id="myHeader"
           style={{
             backgroundColor: "hsl(222deg 56% 96%)",
