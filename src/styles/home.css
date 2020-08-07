@@ -31,6 +31,17 @@
   background-repeat: no-repeat;
   background-position: right;
 }
+.iag {
+  background-image: url("../styles/img/bg2.jpg");
+  background-repeat: repeat;
+  background-attachment: fixed;
+}
+.services {
+  background-image: url("../styles/img/bg5.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 #heading {
   font-family: "Krona One", sans-serif;
   margin-top: 6rem;

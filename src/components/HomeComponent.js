@@ -52,7 +52,7 @@ class Home extends Component {
             alt="Ideal action and Goal"
           />
         </div>
-        <div>
+        <div className="services">
           <Container>
             <div className="text-center">
               <h1>OUR SERVICES</h1>
@@ -60,7 +60,7 @@ class Home extends Component {
             <Fade left duration={1000}>
               <div
                 id="servicerow"
-                className="row mb-3 mx-0 border rounded pr-4 "
+                className="row mb-3 mx-0 border bg-white rounded pr-4 "
               >
                 <div className="col-12 col-sm-6 col-md-6 text-center">
                   <h2>Switch to Online</h2>
@@ -89,7 +89,10 @@ class Home extends Component {
               </div>
             </Fade>
             <Fade right duration={1000}>
-              <div id="servicerow" className="row rounded mx-1  mb-3 border ">
+              <div
+                id="servicerow"
+                className="row rounded mx-1 bg-white  mb-3 border "
+              >
                 <div className="col-12 col-sm-6 col-md-6 text-center  order-sm-first">
                   <img
                     id="dm"
@@ -116,7 +119,10 @@ class Home extends Component {
               </div>
             </Fade>
             <Fade left duration={1000}>
-              <div id="servicerow" className="row rounded  mx-1 mb-3 border">
+              <div
+                id="servicerow"
+                className="row rounded bg-white  mx-1 mb-3 border"
+              >
                 <div className="col-12 col-sm-6 col-md-6 text-center">
                   <h2>Business Analysis</h2>
                   <hr></hr>
@@ -142,7 +148,10 @@ class Home extends Component {
               </div>
             </Fade>
             <Fade right duration={1000}>
-              <div id="servicerow" className="row rounded mx-1  mb-3 border">
+              <div
+                id="servicerow"
+                className="row rounded mx-1 bg-white  mb-3 border"
+              >
                 <div className="col-12 col-sm-6 col-md-6 text-center  order-sm-first">
                   <img
                     id="pts"

@@ -6,6 +6,7 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Aboutus from "./components/AboutusComponent";
 import Home from "./components/HomeComponent";
 import Footer from "./components/FooterComponent";
+import MarketingSchemes from "./components/MarketingSchemes";
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
           <Route exact path="/" component={Home} />
           <Route path="/aboutus" component={Aboutus} />
           <Route path="/switch-to-online" component={Aboutus} />
-          <Route path="/marketing-scheme" component={Aboutus} />
+          <Route path="/marketing-schemes" component={MarketingSchemes} />
           <Route path="/business-analysis" component={Aboutus} />
           <Route path="/path-to-start" component={Aboutus} />
         </Switch>
