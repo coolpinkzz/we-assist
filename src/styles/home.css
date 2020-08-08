@@ -51,9 +51,10 @@ p {
 }
 h1,
 h2 {
-  font-family: "Krona One", sans-serif;
+  font-family: "Krona One", sans-serif !important;
   padding-top: 2rem;
   margin-bottom: 2rem;
+  color: "#55198b" !important;
 }
 
 #service {

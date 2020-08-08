@@ -55,7 +55,7 @@ class Home extends Component {
         <div className="services">
           <Container>
             <div className="text-center">
-              <h1>OUR SERVICES</h1>
+              <h1 style={{ color: "#55198b" }}>OUR SERVICES</h1>
             </div>
             <Fade left duration={1000}>
               <div
@@ -63,8 +63,8 @@ class Home extends Component {
                 className="row mb-3 mx-0 border bg-white rounded pr-4 "
               >
                 <div className="col-12 col-sm-6 col-md-6 text-center">
-                  <h2>Switch to Online</h2>
-                  <hr></hr>
+                  <h2 style={{ color: "#55198b" }}>Switch to Online</h2>
+                  <hr color="#ff458c"></hr>
                   <p className="text-sm-left text-center">
                     Looking to take your offline business to online world? Let
                     us help you get there. Let us worry about all the work to
@@ -101,8 +101,8 @@ class Home extends Component {
                   />
                 </div>
                 <div className="col-12 col-sm-6 col-md-6 text-center order-first">
-                  <h2>Marketing Scheme</h2>
-                  <hr></hr>
+                  <h2 style={{ color: "#55198b" }}>Marketing Scheme</h2>
+                  <hr color="#ff458c"></hr>
                   <p className="text-sm-left text-center">
                     A great service to introduce your business to those who need
                     them and increase your brand value. It is a method for those
@@ -124,8 +124,8 @@ class Home extends Component {
                 className="row rounded bg-white  mx-1 mb-3 border"
               >
                 <div className="col-12 col-sm-6 col-md-6 text-center">
-                  <h2>Business Analysis</h2>
-                  <hr></hr>
+                  <h2 style={{ color: "#55198b" }}>Business Analysis</h2>
+                  <hr color="#ff458c"></hr>
                   <p className="text-sm-left text-center">
                     To know the type of market you're about to put your business
                     in is very important. So we will, with our sources, research
@@ -160,8 +160,8 @@ class Home extends Component {
                   />
                 </div>
                 <div className="col-12 col-sm-6 col-md-6 text-center order-first">
-                  <h2>Path to Start</h2>
-                  <hr></hr>
+                  <h2 style={{ color: "#55198b" }}>Path to Start</h2>
+                  <hr color="#ff458c"></hr>
                   <p className="text-sm-left text-center">
                     About to begin a startup? No worries, we will design the
                     best plan to make your ideas shine. From introducing you to
