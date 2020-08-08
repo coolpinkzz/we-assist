@@ -12,8 +12,10 @@ class Home extends Component {
         <Fade bottom duration={1000} distance="40px">
           <div className="row ">
             <div className="moto  col-12  col-sm-6 text-center text-sm-left">
-              <h1 id="heading">WE THINK ABOUT YOU AND YOUR FUTURE !</h1>
-              <hr></hr>
+              <h1 style={{ color: "#55198b" }} id="heading">
+                WE THINK ABOUT YOU AND YOUR FUTURE !
+              </h1>
+              <hr color="#ff458c"></hr>
               <p className="my-5">
                 Running a business can be a difficult job sometimes, but keep
                 all your stress aside as we can help your business to prosper.
@@ -74,7 +76,10 @@ class Home extends Component {
                     through us, you can track your profit without any hurdle.
                   </p>
                   <a href="switch-to-online">
-                    <button className="btn btn-secondary rounded  mb-4">
+                    <button
+                      style={{ backgroundColor: "#55198b" }}
+                      className="btn btn-secondary rounded  mb-4"
+                    >
                       Go to Service{" "}
                     </button>
                   </a>
@@ -112,9 +117,14 @@ class Home extends Component {
                     use various technologies to expand your business name and
                     gain more customers.
                   </p>
-                  <button className="btn btn-secondary rounded shadow">
-                    Go to Service{" "}
-                  </button>
+                  <a href="marketing-schemes">
+                    <button
+                      style={{ backgroundColor: "#55198b" }}
+                      className="btn btn-secondary rounded shadow"
+                    >
+                      Go to Service{" "}
+                    </button>
+                  </a>
                 </div>
               </div>
             </Fade>
@@ -134,9 +144,14 @@ class Home extends Component {
                     competitors, demands and needs and most importantly we will
                     help you with the upcoming market strategies and changes.
                   </p>
-                  <button className="btn btn-secondary rounded shadow">
-                    Go to Service{" "}
-                  </button>
+                  <a href="business-analysis">
+                    <button
+                      style={{ backgroundColor: "#55198b" }}
+                      className="btn btn-secondary rounded shadow"
+                    >
+                      Go to Service{" "}
+                    </button>
+                  </a>
                 </div>
                 <div className="col-12 col-sm-6 col-md-6 text-center">
                   <img
@@ -171,9 +186,14 @@ class Home extends Component {
                     out of it. Choose us to make your startup different from
                     your competitors.
                   </p>
-                  <button className="btn btn-secondary rounded shadow">
-                    Go to Service{" "}
-                  </button>
+                  <a href="path-to-start">
+                    <button
+                      style={{ backgroundColor: "#55198b" }}
+                      className="btn btn-secondary rounded shadow"
+                    >
+                      Go to Service{" "}
+                    </button>
+                  </a>
                 </div>
               </div>
             </Fade>

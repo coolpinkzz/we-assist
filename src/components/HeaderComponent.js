@@ -24,7 +24,6 @@ import {
 import { Container } from "react-bootstrap";
 import "../styles/header.css";
 import "../App.css";
-
 class Example extends Component {
   constructor(props) {
     super(props);
@@ -32,8 +31,10 @@ class Example extends Component {
     this.toggle = this.toggle.bind(this);
     this.onMouseEnter = this.onMouseEnter.bind(this);
     this.onMouseLeave = this.onMouseLeave.bind(this);
+    this.clicktoggle = this.clicktoggle.bind(this);
     this.state = {
       dropdownOpen: false,
+      isOpen: false,
     };
   }
 
@@ -49,6 +50,11 @@ class Example extends Component {
 
   onMouseLeave() {
     this.setState({ dropdownOpen: false });
+  }
+  clicktoggle() {
+    if (this.state.isOpen == true) {
+      this.setState({ isOpen: false });
+    } else this.setState({ isOpen: true });
   }
 
   render() {
@@ -66,7 +72,7 @@ class Example extends Component {
             id="myHeader"
             style={{
               backgroundColor: "hsl(222deg 56% 96%)",
-              height: "100px",
+              height: "89px",
               width: "100%",
             }}
             light
@@ -74,7 +80,7 @@ class Example extends Component {
           >
             <Container>
               <img
-                className="logo"
+                className="logo mt-0"
                 style={{ height: "70px" }}
                 src="images/finallogo.png"
                 alt="logo"
@@ -91,8 +97,8 @@ class Example extends Component {
                   An Inititative to become Atmanirbhar
                 </p>
               </NavbarBrand>
-              <NavbarToggler />
-              <Collapse navbar>
+              <NavbarToggler onClick={this.clicktoggle} />
+              <Collapse isOpen={this.state.isOpen} navbar>
                 <Nav className="ml-auto " navbar>
                   <NavItem>
                     <NavLink style={mystyle} href="/">
@@ -103,12 +109,12 @@ class Example extends Component {
                     </NavLink>
                   </NavItem>
                   <UncontrolledDropdown
-                    nav
-                    inNavbar
                     onMouseOver={this.onMouseEnter}
                     onMouseLeave={this.onMouseLeave}
                     isOpen={this.state.dropdownOpen}
                     toggle={this.toggle}
+                    nav
+                    inNavbar
                   >
                     <DropdownToggle style={mystyle} nav caret>
                       {" "}
