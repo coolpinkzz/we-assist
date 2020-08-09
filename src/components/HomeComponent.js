@@ -48,9 +48,9 @@ class Home extends Component {
 
         <div className="iag row py-5 justify-content-center">
           <img
-            style={{ width: "70%", height: "500px" }}
+            style={{ width: "70%", height: "600px" }}
             id="iag"
-            src="images/frontnew.png"
+            src="images/front.png"
             alt="Ideal action and Goal"
           />
         </div>
