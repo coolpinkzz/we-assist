@@ -81,8 +81,8 @@ class Example extends Component {
             <Container>
               <img
                 className="logo mt-0"
-                style={{ height: "70px" }}
-                src="images/finallogo.png"
+                style={{ height: "auto", width: "4%" }}
+                src="images/finallogo2.png"
                 alt="logo"
               />
               <NavbarBrand className="brand " href="/">

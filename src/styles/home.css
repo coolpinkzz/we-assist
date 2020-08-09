@@ -64,8 +64,8 @@ h2 {
 #dm,
 #mr,
 #pts {
-  height: 350px;
-  width: auto;
+  height: auto;
+  width: 100%;
 }
 #servicerow:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
