@@ -1,38 +1,40 @@
-import React, { Component } from "react";
-import "../styles/switchtoonline.css";
+import React from "react";
+import "../styles/marketingschemes.css";
 
 import { Fade } from "react-reveal";
-import { Container } from "reactstrap";
 
 const MarketingSchemes = () => {
   return (
     <div>
       <section className="main">
-        <div className="container-fluid">
-          <div className="row">
-            <div className="moto col-sm-12 col-md-6 col-lg-6">
-              <div className="pt-5">
-                <h1>Marketing Strategies</h1>
-                <h5>
-                  Marketing strategies is the combination of all digitally
-                  marketing schemes, strategies and methods that are used to
-                  connect a business with right customers through various
-                  digital marketing platforms and channels.
-                </h5>
+        <Fade bottom duration={1000} distance="40px">
+          <div className="container-fluid">
+            <div className="row">
+              <div className="moto col-sm-12 col-md-6 col-lg-6">
+                <div className="pt-5">
+                  <h1 style={{ color: "#55198b" }}>Marketing Strategies</h1>
+                  <hr color="#ff458c"></hr>
+                  <h5>
+                    Marketing strategies is the combination of all digitally
+                    marketing schemes, strategies and methods that are used to
+                    connect a business with right customers through various
+                    digital marketing platforms and channels.
+                  </h5>
+                </div>
               </div>
-            </div>
 
-            <div className="col-12 col-sm-12 col-md-6 col-lg-6">
-              <div className="card-img">
-                <img
-                  className="main-image img-fluid"
-                  src="images/marstr.png"
-                  alt=""
-                />
+              <div className="col-12 col-sm-12 col-md-6 col-lg-6">
+                <div className="card-img">
+                  <img
+                    className="main-image img-fluid"
+                    src="images/marstr.png"
+                    alt=""
+                  />
+                </div>
               </div>
             </div>
           </div>
-        </div>
+        </Fade>
       </section>
       <section className="poten">
         <div className="container">
@@ -55,13 +57,14 @@ const MarketingSchemes = () => {
           </div>
         </div>
       </section>
+
       <section className="services">
         <div className="row">
           <div className="container">
             <div className="card-deck">
               <div className="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
                 <div className="text-aling text-center">
-                  <h2>Marketing Statergies Services</h2>
+                  <h2>Marketing Strategies Services</h2>
                   <hr />
                 </div>
               </div>
@@ -168,11 +171,6 @@ const MarketingSchemes = () => {
                       website using unique links which helps to differentitate
                       them from other customers and keep ypu away from giving up
                       more commission to affiliates.
-                      <br />
-                      <br />
-                      Finding legitimate affiliates is a tough job bute you
-                      don't have to worry about this as we will take care of
-                      everything.
                     </p>
                   </div>
                 </div>

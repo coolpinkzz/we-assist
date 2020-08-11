@@ -7,6 +7,7 @@ import Aboutus from "./components/AboutusComponent";
 import Home from "./components/HomeComponent";
 import Footer from "./components/FooterComponent";
 import MarketingSchemes from "./components/MarketingSchemes";
+import Switchtoonline from "./components/SwitchToOnlineComponent";
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
         <Switch>
           <Route exact path="/" component={Home} />
           <Route path="/aboutus" component={Aboutus} />
-          <Route path="/switch-to-online" component={Aboutus} />
+          <Route path="/switch-to-online" component={Switchtoonline} />
           <Route path="/marketing-schemes" component={MarketingSchemes} />
           <Route path="/business-analysis" component={Aboutus} />
           <Route path="/path-to-start" component={Aboutus} />
