@@ -37,9 +37,10 @@
   background-attachment: fixed;
 }
 .services {
-  background-image: url("../styles/img/bg5.jpg");
+  background-image: url("../styles/img/gears-5193383_1280.png");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 #heading {
