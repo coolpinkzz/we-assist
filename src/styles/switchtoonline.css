@@ -1,3 +1,10 @@
+.sto-1 {
+  background-image: linear-gradient(
+    to right,
+    hsl(222deg 56% 96%),
+    rgb(40, 154, 247)
+  );
+}
 li {
   text-transform: uppercase;
 }

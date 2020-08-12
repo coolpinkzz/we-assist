@@ -1,0 +1,10 @@
+h1 {
+  color: #55198b;
+}
+.jumbo {
+  background-image: linear-gradient(
+    to right,
+    hsl(222deg 56% 96%),
+    rgb(94, 150, 224)
+  );
+}

@@ -68,7 +68,7 @@ class Example extends Component {
       <div>
         <Headroom>
           <Navbar
-            className="header  p-3 "
+            className="header  p-3 shadow"
             id="myHeader"
             style={{
               backgroundColor: "hsl(222deg 56% 96%)",

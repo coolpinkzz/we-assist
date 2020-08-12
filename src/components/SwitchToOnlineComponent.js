@@ -5,8 +5,7 @@ import { Fade } from "react-reveal";
 const Switchtoonline = () => {
   return (
     <div>
-      {" "}
-      <div className="container-fluid">
+      <div className="sto-1">
         <div className="row ">
           <Fade left duration={1000} distance="40px">
             <div className="moto col-sm-12 col-md-6 col-lg-6">
@@ -40,10 +39,10 @@ const Switchtoonline = () => {
       <div className="sto-2">
         <div className="overlay">
           <div className=" container ">
-            <div className="sto-2-inside row text p-5">
-              <h1 style={{ fontSize: "30px" }}>
+            <div className="sto-2-inside row p-5">
+              <h2 style={{ fontSize: "30px" }}>
                 The many benefits of online business include:
-              </h1>
+              </h2>
 
               <div className="col-12 col-md-6 col-sm-6">
                 <ul>
