@@ -10,6 +10,8 @@ import MarketingSchemes from "./components/MarketingSchemes";
 import Switchtoonline from "./components/SwitchToOnlineComponent";
 import BusinessAnalysis from "./components/BusinessAnalysisComponent";
 
+import Privacy from "./components/PrivacyPolicy";
+
 function App() {
   return (
     <div className="App">
@@ -23,6 +25,7 @@ function App() {
           <Route path="/business-analytics" component={BusinessAnalysis} />
           <Route path="/path-to-start" component={Aboutus} />
         </Switch>
+        <Privacy />
         <Footer />
       </BrowserRouter>
     </div>

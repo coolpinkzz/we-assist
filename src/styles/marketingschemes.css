@@ -88,12 +88,6 @@ section {
 }
 
 /*------------section -----------*/
-.poten {
-  background-image: url("../styles/img/digital-marketing.png");
-  background-size: cover;
-  background-attachment: fixed;
-  color: aliceblue;
-}
 
 .poten .text h1:after {
   content: "";
