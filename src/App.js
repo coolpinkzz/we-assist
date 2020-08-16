@@ -11,6 +11,7 @@ import Switchtoonline from "./components/SwitchToOnlineComponent";
 import BusinessAnalysis from "./components/BusinessAnalysisComponent";
 
 import Privacy from "./components/PrivacyPolicy";
+import TermsAndConditions from "./components/TermsandconditionsComponent";
 
 function App() {
   return (
@@ -24,8 +25,10 @@ function App() {
           <Route path="/marketing-schemes" component={MarketingSchemes} />
           <Route path="/business-analytics" component={BusinessAnalysis} />
           <Route path="/path-to-start" component={Aboutus} />
+          <Route path="/privacy-policy" component={Privacy} />
+          <Route path="/terms-and-conditions" component={TermsAndConditions} />
         </Switch>
-        <Privacy />
+
         <Footer />
       </BrowserRouter>
     </div>
