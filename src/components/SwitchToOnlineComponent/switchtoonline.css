@@ -1,0 +1,29 @@
+.sto-1 {
+  background-image: linear-gradient(
+    to right,
+    hsl(222deg 56% 96%),
+    rgb(94, 150, 224)
+  );
+}
+p {
+  font-family: "Montserrat", sans-serif;
+}
+li {
+  text-transform: uppercase;
+}
+ul {
+  list-style: square;
+}
+h1 {
+  color: "#55198b" !important;
+}
+.sto-2 {
+  background-image: url("../../styles/img/E-Commerce-Website-Development-company-In-India.jpg");
+  background-position: center;
+  color: rgb(255, 255, 255);
+  background-attachment: fixed;
+  background-size: cover;
+}
+.overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+}

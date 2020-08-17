@@ -1,17 +1,20 @@
 import React from "react";
 import "./App.css";
-import Example from "./components/HeaderComponent";
+import Example from "./components/HeaderComponent/HeaderComponent";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 
-import Aboutus from "./components/AboutusComponent";
-import Home from "./components/HomeComponent";
-import Footer from "./components/FooterComponent";
-import MarketingSchemes from "./components/MarketingSchemes";
-import Switchtoonline from "./components/SwitchToOnlineComponent";
-import BusinessAnalysis from "./components/BusinessAnalysisComponent";
+import Aboutus from "./components/AboutUsComponent/AboutusComponent";
+
+import Footer from "./components/FooterComponent/FooterComponent";
+import MarketingSchemes from "./components/MarketingSchemes/MarketingSchemes";
+import Switchtoonline from "./components/SwitchToOnlineComponent/SwitchToOnlineComponent";
+import BusinessAnalysis from "./components/BusinessAnalysisComponent/BusinessAnalysisComponent";
 
 import Privacy from "./components/PrivacyPolicy";
 import TermsAndConditions from "./components/TermsandconditionsComponent";
+
+import pathtostart from "./components/PathToStartComponent/PathToStartComponent";
+import Home from "./components/HomeCompononet/HomeComponent";
 
 function App() {
   return (
@@ -24,7 +27,7 @@ function App() {
           <Route path="/switch-to-online" component={Switchtoonline} />
           <Route path="/marketing-schemes" component={MarketingSchemes} />
           <Route path="/business-analytics" component={BusinessAnalysis} />
-          <Route path="/path-to-start" component={Aboutus} />
+          <Route path="/path-to-start" component={pathtostart} />
           <Route path="/privacy-policy" component={Privacy} />
           <Route path="/terms-and-conditions" component={TermsAndConditions} />
         </Switch>
