@@ -1,5 +1,5 @@
 import React from "react";
-import { switchtoonline } from "./switchtoonline.css";
+import "./switchtoonline.css";
 import { Fade } from "react-reveal";
 
 const Switchtoonline = () => {
@@ -46,28 +46,28 @@ const Switchtoonline = () => {
 
               <div className="col-12 col-md-6 col-sm-6">
                 <ul>
-                  <li>
+                  <li id="stoli">
                     <p>global access, 24 hours a day, 7 days a week</p>
                   </li>
-                  <li>
+                  <li id="stoli">
                     <p>improved client service through greater flexibility</p>
                   </li>
-                  <li>
+                  <li id="stoli">
                     <p>
                       improved client service through greater flexibilitycost
                       savings
                     </p>
                   </li>
-                  <li>
+                  <li id="stoli">
                     <p>faster delivery of products</p>
                   </li>
-                  <li>
+                  <li id="stoli">
                     <p>less paper waste</p>
                   </li>
-                  <li>
+                  <li id="stoli">
                     <p>increased professionalism</p>
                   </li>
-                  <li>
+                  <li id="stoli">
                     <p>
                       opportunities to manage your business from anywhere in the
                       world
@@ -77,31 +77,31 @@ const Switchtoonline = () => {
               </div>
               <div className="col-12 col-md-6 col-sm-6">
                 <ul>
-                  <li>
+                  <li id="stoli">
                     <p>manage your suppliers</p>
                   </li>
-                  <li>
+                  <li id="stoli">
                     <p>
                       communicate with your customers, and get their feedback
                     </p>
                   </li>
-                  <li>
+                  <li id="stoli">
                     <p>offer services online</p>
                   </li>
-                  <li>
+                  <li id="stoli">
                     <p>
                       allow customers to make reservations or appointments
                       online
                     </p>
                   </li>
-                  <li>
+                  <li id="stoli">
                     <p>
                       {" "}
                       manage your finances, such as online banking, tax and
                       employee
                     </p>
                   </li>
-                  <li>
+                  <li id="stoli">
                     <p>research competitors.</p>
                   </li>
                 </ul>

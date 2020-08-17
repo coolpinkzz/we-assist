@@ -8,3 +8,16 @@ h1 {
     rgb(94, 150, 224)
   );
 }
+.card {
+  height: 28rem !important;
+  margin: 5px;
+}
+@media screen and (max-width: 1000px) {
+  .cardstyleba {
+    height: auto !important;
+  }
+}
+#bdescrip {
+  list-style: square;
+  margin: 5px !important;
+}

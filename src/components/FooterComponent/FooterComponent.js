@@ -22,7 +22,7 @@ class Footer extends Component {
                 </a>
                 <a href="/contact-us">
                   {" "}
-                  <li className="mx-4">→ COntact Us</li>
+                  <li className="mx-4">→ Contact Us</li>
                 </a>
               </ul>
             </div>
