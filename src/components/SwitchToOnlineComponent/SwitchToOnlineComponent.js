@@ -37,75 +37,74 @@ const Switchtoonline = () => {
         </div>
       </div>
       <div className="sto-2">
-        <div className="overlay">
-          <div className=" container ">
-            <div className="sto-2-inside row p-5">
-              <h2 style={{ fontSize: "30px" }}>
-                The many benefits of online business include:
-              </h2>
+        <div className=" container ">
+          <div className="sto-2-inside row p-5">
+            <h1 style={{ fontSize: "30px" }}>
+              The many benefits of online business include:
+            </h1>
 
-              <div className="col-12 col-md-6 col-sm-6">
-                <ul>
-                  <li id="stoli">
-                    <p>global access, 24 hours a day, 7 days a week</p>
-                  </li>
-                  <li id="stoli">
-                    <p>improved client service through greater flexibility</p>
-                  </li>
-                  <li id="stoli">
-                    <p>
-                      improved client service through greater flexibilitycost
-                      savings
-                    </p>
-                  </li>
-                  <li id="stoli">
-                    <p>faster delivery of products</p>
-                  </li>
-                  <li id="stoli">
-                    <p>less paper waste</p>
-                  </li>
-                  <li id="stoli">
-                    <p>increased professionalism</p>
-                  </li>
-                  <li id="stoli">
-                    <p>
-                      opportunities to manage your business from anywhere in the
-                      world
-                    </p>
-                  </li>
-                </ul>
-              </div>
-              <div className="col-12 col-md-6 col-sm-6">
-                <ul>
-                  <li id="stoli">
-                    <p>manage your suppliers</p>
-                  </li>
-                  <li id="stoli">
-                    <p>
-                      communicate with your customers, and get their feedback
-                    </p>
-                  </li>
-                  <li id="stoli">
-                    <p>offer services online</p>
-                  </li>
-                  <li id="stoli">
-                    <p>
-                      allow customers to make reservations or appointments
-                      online
-                    </p>
-                  </li>
-                  <li id="stoli">
-                    <p>
-                      {" "}
-                      manage your finances, such as online banking, tax and
-                      employee
-                    </p>
-                  </li>
-                  <li id="stoli">
-                    <p>research competitors.</p>
-                  </li>
-                </ul>
-              </div>
+            <div className="col-12 col-md-4 col-sm-4">
+              <ul>
+                <li id="stoli">
+                  <p>global access, 24 hours a day, 7 days a week</p>
+                </li>
+                <li id="stoli">
+                  <p>improved client service through greater flexibility</p>
+                </li>
+                <li id="stoli">
+                  <p>
+                    improved client service through greater flexibilitycost
+                    savings
+                  </p>
+                </li>
+                <li id="stoli">
+                  <p>faster delivery of products</p>
+                </li>
+              </ul>
+            </div>
+            <div className="col-12 col-md-4 col-sm-4">
+              <ul>
+                <li id="stoli">
+                  <p>manage your suppliers</p>
+                </li>
+                <li id="stoli">
+                  <p>communicate with your customers, and get their feedback</p>
+                </li>
+                <li id="stoli">
+                  <p>offer services online</p>
+                </li>
+                <li id="stoli">
+                  <p>
+                    allow customers to make reservations or appointments online
+                  </p>
+                </li>
+              </ul>
+            </div>
+            <div className="col-12 col-md-4 col-sm-4">
+              <ul>
+                <li id="stoli">
+                  <p>less paper waste</p>
+                </li>
+                <li id="stoli">
+                  <p>increased professionalism</p>
+                </li>
+                <li id="stoli">
+                  <p>
+                    opportunities to manage your business from anywhere in the
+                    world
+                  </p>
+                </li>
+                <li id="stoli">
+                  <p>
+                    {" "}
+                    manage your finances, such as online banking, tax and
+                    employee
+                  </p>
+                </li>
+                <li id="stoli">
+                  <p>research competitors.</p>
+                </li>
+              </ul>
             </div>
           </div>
         </div>

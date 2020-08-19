@@ -17,37 +17,45 @@ import {
 const BusinessAnalysis = () => {
   return (
     <div>
-      {" "}
-      <div className="row  jumbo">
-        <div className="col-12 col-sm-6 col-md-6 p-5">
-          <h1>Business Analytics</h1>
-          <hr />
-          <p>
-            As the name suggest, it's all about analysis of data but it is not a
-            one-step process. Business analysis involves collecting, sorting,
-            processing, and inspecting the raw data using many ways and tools to
-            convert the data into information and further using that information
-            to understand the demand of consumers. This will eventually help us
-            to introduce new ideas in your business.
-            <br />
-            <br />
-          </p>
-        </div>
-        <div className="col-12 col-sm-6 col-md-6 text-center">
-          <img src="images/BA.png" />
-        </div>
+      <div className="jumbo">
+        <Container>
+          {" "}
+          <div className="row ">
+            <div className="col-12 col-sm-8 col-md-8 p-5">
+              <h1>Business Analytics</h1>
+              <hr />
+              <p>
+                As the name suggest, it's all about analysis of data but it is
+                not a one-step process. Business analysis involves collecting,
+                sorting, processing, and inspecting the raw data using many ways
+                and tools to convert the data into information and further using
+                that information to understand the demand of consumers. This
+                will eventually help us to introduce new ideas in your business.
+                <br />
+                <br />
+              </p>
+            </div>
+            <div className="col-12 col-sm-4 col-md-4">
+              <img src="images/BA.png" />
+            </div>
+          </div>
+        </Container>
+      </div>
+      <div className="ba-poten">
+        <Container>
+          <div className="row p-4">
+            <h1>Our Potential</h1>
+            <hr />
+            <p>
+              Team of “WE ASSIST” will put all our ideas, knowledge and
+              information to identify the needs of your business and provide you
+              with its solutions.
+            </p>
+          </div>
+        </Container>
       </div>
       <Container>
-        <div className="row m-4">
-          <h1>Our Potential</h1>
-          <hr />
-          <p>
-            Team of “WE ASSIST” will put all our ideas, knowledge and
-            information to identify the needs of your business and provide you
-            with its solutions.
-          </p>
-        </div>
-        <Row>
+        <Row className="p-4">
           <Col md="4">
             {" "}
             <Card className="text-center align-items-center cardstyleba">

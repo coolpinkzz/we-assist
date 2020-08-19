@@ -24,10 +24,10 @@ const MarketingSchemes = () => {
               </div>
 
               <div className="col-12 col-sm-12 col-md-6 col-lg-6">
-                <div className="card-img">
+                <div className="card-img text-align-center p-5">
                   <img
-                    className="main-image img-fluid"
-                    src="images/marstr.png"
+                    className="main-image img-fluid p-3"
+                    src="images/marketing2.png"
                     alt=""
                   />
                 </div>

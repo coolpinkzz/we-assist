@@ -28,8 +28,12 @@ li {
   background-image: url("../../styles/img/support.png");
 }
 .cardstyle {
-  height: 25rem;
+  height: 25rem !important;
 }
+.expertcard {
+  height: auto !important;
+}
+
 @media screen and (max-width: 1000px) {
   .cardstyle {
     height: auto;

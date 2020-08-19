@@ -9,16 +9,20 @@ p {
   font-family: "Montserrat", sans-serif;
 }
 #stoli {
+  color: black;
   text-transform: uppercase;
+  list-style: square !important;
 }
-ul {
-  list-style: square;
-}
+
 h1 {
   color: "#55198b" !important;
 }
 .sto-2 {
-  background-image: url("../../styles/img/E-Commerce-Website-Development-company-In-India.jpg");
+  background-image: linear-gradient(
+    to right,
+    hsl(222deg 56% 96%),
+    rgb(94, 150, 224)
+  );
   background-position: center;
   color: rgb(255, 255, 255);
   background-attachment: fixed;

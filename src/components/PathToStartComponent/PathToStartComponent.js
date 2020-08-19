@@ -292,16 +292,12 @@ const pathtostart = () => {
 
           <div className="row justify-content-center">
             <h2>Our Expert Support</h2>
-            <p>
-              In-house specialists of contemporary technologies that
-              encapsulates server-side and front-end stacks.
-            </p>
           </div>
         </Container>
 
         <Row className="lastbg p-3">
           <Col md="4" className="p-2 py-md-5 ">
-            <Card className="text-center h-auto">
+            <Card className="text-center h-auto expertcard">
               <CardBody>
                 <FontAwesomeIcon
                   style={{ color: "#d6ff30", fontSize: "4rem" }}
@@ -321,7 +317,7 @@ const pathtostart = () => {
             </Card>
           </Col>
           <Col md="4" className="p-2 py-md-5">
-            <Card className="text-center h-auto">
+            <Card className="text-center h-auto expertcard">
               <CardBody>
                 <FontAwesomeIcon
                   style={{ color: "#ff365e", fontSize: "4rem" }}
@@ -340,7 +336,7 @@ const pathtostart = () => {
             </Card>
           </Col>
           <Col md="4" className="p-2 py-md-5">
-            <Card className="text-center h-auto">
+            <Card className="text-center h-auto expertcard">
               <CardBody>
                 <FontAwesomeIcon
                   style={{ color: "#0073ff", fontSize: "4rem" }}

@@ -8,6 +8,13 @@ h1 {
     rgb(94, 150, 224)
   );
 }
+.ba-poten {
+  background-image: linear-gradient(
+    to right,
+    hsl(222deg 56% 96%),
+    rgb(94, 150, 224)
+  );
+}
 .card {
   height: 28rem !important;
   margin: 5px;
