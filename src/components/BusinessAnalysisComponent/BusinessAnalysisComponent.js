@@ -18,28 +18,26 @@ const BusinessAnalysis = () => {
   return (
     <div>
       <div className="jumbo">
-        <Container>
-          {" "}
-          <div className="row ">
-            <div className="col-12 col-sm-8 col-md-8 p-5">
-              <h1>Business Analytics</h1>
-              <hr />
-              <p>
-                As the name suggest, it's all about analysis of data but it is
-                not a one-step process. Business analysis involves collecting,
-                sorting, processing, and inspecting the raw data using many ways
-                and tools to convert the data into information and further using
-                that information to understand the demand of consumers. This
-                will eventually help us to introduce new ideas in your business.
-                <br />
-                <br />
-              </p>
-            </div>
-            <div className="col-12 col-sm-4 col-md-4">
-              <img src="images/BA.png" />
-            </div>
+        {" "}
+        <div className="row ">
+          <div className=" jumbo-ba col-12 col-sm-6 col-md-6 ">
+            <h1>Business Analytics</h1>
+            <hr />
+            <p>
+              As the name suggest, it's all about analysis of data but it is not
+              a one-step process. Business analysis involves collecting,
+              sorting, processing, and inspecting the raw data using many ways
+              and tools to convert the data into information and further using
+              that information to understand the demand of consumers. This will
+              eventually help us to introduce new ideas in your business.
+              <br />
+              <br />
+            </p>
           </div>
-        </Container>
+          <div className="col-12 col-sm-6 col-md-6 text-center">
+            <img src="images/BA.png" />
+          </div>
+        </div>
       </div>
       <div className="ba-poten">
         <Container>

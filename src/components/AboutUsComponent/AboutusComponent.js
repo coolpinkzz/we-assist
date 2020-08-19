@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 
 import { Container } from "reactstrap";
+import "./aboutus.css";
 
 class Aboutus extends Component {
   render() {
@@ -9,10 +10,13 @@ class Aboutus extends Component {
         <Container>
           <h1 style={{ textAlign: "center" }}>OUR MISSION</h1>
           <p>
-            WE ASSIST is a step towards self-reliant India. We care your ideas
-            and develop them more with a mix of latest technologies to bring
-            positive changes in new Indian brands. Our team is set on a mission
-            to transform the face of India in the global business industry.
+            <span style={{ fontFamily: "'Krona One', sans-serif" }}>
+              WE ASSIST{" "}
+            </span>
+            is a step towards self-reliant India. We care your ideas and develop
+            them more with a mix of latest technologies to bring positive
+            changes in new Indian brands. Our team is set on a mission to
+            transform the face of India in the global business industry.
             <br />
             <br />
             Every local Indian brand dreams about being a global brand and we

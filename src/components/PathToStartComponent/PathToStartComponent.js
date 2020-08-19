@@ -52,29 +52,40 @@ const pathtostart = () => {
         </div>
       </div>
       <div>
-        <Container>
-          <div className="text">
-            <h1>Our Potential</h1>
-            <p>
-              Here at "WE ASSIST", we use the best and highly reliable digital
-              marketing techniques according to the market requirements. And
-              most importantly, these digital marketing techniques will benefit
-              ypu brand at a minimal input.
-              <br />
-              <ul>
-                What we will do to help you :<li>Give you a platform.</li>
-                <li> Support your ideas and if needed, improvise them also.</li>
-                <li>Learning and development programmes.</li>
-                <li> Startup policies.</li>
-                <li> Tools and templates.</li>
-                <li>Networking and discussion</li>
-              </ul>
-            </p>
-          </div>
-        </Container>
+        <div className="pts-poten">
+          <Container>
+            <div className="pts-poten-inside p-4">
+              <h1>Our Potential</h1>
+              <p>
+                Here at "WE ASSIST", we use the best and highly reliable digital
+                marketing techniques according to the market requirements. And
+                most importantly, these digital marketing techniques will
+                benefit ypu brand at a minimal input.
+                <br />
+                <br />
+                <h2>What we will do to help you :</h2>
+                <ul>
+                  <li>Give you a platform.</li>
+                  <li>
+                    {" "}
+                    Support your ideas and if needed, improvise them also.
+                  </li>
+                  <li>Learning and development programmes.</li>
+                  <li> Startup policies.</li>
+                  <li> Tools and templates.</li>
+                  <li>Networking and discussion</li>
+                </ul>
+              </p>
+            </div>
+          </Container>
+        </div>
       </div>
 
-      <div className="row pts-card p-5">
+      <div className="row pts-card p-5 justify-content-center">
+        <div className="">
+          <h1>OUR STRATEGY</h1>
+        </div>
+
         <Row>
           <Col md="3" className="p-2 py-md-5 ">
             <Card className="text-center cardstyle ">

@@ -8,6 +8,10 @@ h1 {
     rgb(94, 150, 224)
   );
 }
+.jumbo-ba {
+  padding-left: 10rem;
+  padding-top: 4rem;
+}
 .ba-poten {
   background-image: linear-gradient(
     to right,
