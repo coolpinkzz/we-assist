@@ -81,7 +81,7 @@ section {
     height: auto;
   }
   .flip-card {
-    height: 24rem !important;
+    height: 25rem !important;
   }
 }
 
@@ -152,7 +152,7 @@ section {
 .flip-card-back {
   position: absolute;
   width: 100%;
-  height: 24rem;
+  height: 25rem;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }

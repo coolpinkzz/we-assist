@@ -7,3 +7,9 @@
   margin-bottom: -16px;
   padding: 3rem;
 }
+@media (max-width: 600px) {
+  .aboutcard {
+    margin-bottom: -16px;
+    padding: 0rem;
+  }
+}
