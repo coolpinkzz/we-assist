@@ -28,7 +28,7 @@ const pathtostart = () => {
   return (
     <div>
       <div className="pts row">
-        <div className="moto col-sm-12 col-md-6 col-lg-6 my-auto">
+        <div className="moto text-center col-sm-12 col-md-6 col-lg-6 my-auto">
           <h1>Path to start (Startup) </h1>
           <p>
             Being a part of a startup team is uniquely exciting – it provides

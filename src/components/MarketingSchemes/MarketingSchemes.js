@@ -11,15 +11,15 @@ const MarketingSchemes = () => {
           <div className="container-fluid">
             <div className="row">
               <div className="moto col-sm-12 col-md-6 col-lg-6">
-                <div className="pt-5">
+                <div className="text-center pt-5">
                   <h1 style={{ color: "#55198b" }}>Marketing Strategies</h1>
                   <hr color="#ff458c"></hr>
-                  <h5>
+                  <p>
                     Marketing strategies is the combination of all digitally
                     marketing schemes, strategies and methods that are used to
                     connect a business with right customers through various
                     digital marketing platforms and channels.
-                  </h5>
+                  </p>
                 </div>
               </div>
 
@@ -42,7 +42,7 @@ const MarketingSchemes = () => {
             <div className="col-12">
               <div className="text">
                 <h1>Our Potential</h1>
-                <h5>
+                <p>
                   Here at "WE ASSIST", we use the best and highly reliable
                   digital marketing techniques according to the market
                   requirements. And most importantly, these digital marketing
@@ -51,7 +51,7 @@ const MarketingSchemes = () => {
                   According to the company's data, we will come up with right
                   set of measures to make sure that you achieve your maximum
                   target audience as sson as possible.
-                </h5>
+                </p>
               </div>
             </div>
           </div>
@@ -106,7 +106,7 @@ const MarketingSchemes = () => {
                       alt="Card image cap"
                     />
                     <div className="card-body">
-                      <h5 className="card-title">Mobile marketing</h5>
+                      <h5 className="card-title ">Mobile marketing</h5>
                     </div>
                   </div>
                   <div className="flip-card-back">

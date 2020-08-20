@@ -35,7 +35,7 @@ const BusinessAnalysis = () => {
             </p>
           </div>
           <div className="col-12 col-sm-6 col-md-6 text-center">
-            <img src="images/BA.png" />
+            <img style={{ height: "auto" }} src="images/BA.png" />
           </div>
         </div>
       </div>

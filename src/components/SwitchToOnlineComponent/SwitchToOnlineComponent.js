@@ -9,7 +9,7 @@ const Switchtoonline = () => {
         <div className="row ">
           <Fade left duration={1000} distance="40px">
             <div className="moto col-sm-12 col-md-6 col-lg-6">
-              <div className="pt-5">
+              <div className="jumbo-content pt-5">
                 <h1 style={{ color: "#55198b" }}>Switch to Online</h1>
                 <hr color="#ff458c"></hr>
                 <p>

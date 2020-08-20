@@ -31,3 +31,9 @@ h1 {
 .overlay {
   background-color: rgba(0, 0, 0, 0.6);
 }
+
+@media (max-width: 600px) {
+  .jumbo-content {
+    text-align: center;
+  }
+}

@@ -75,7 +75,7 @@ class Home extends Component {
                     products. By applying safe methods of online financial work
                     through us, you can track your profit without any hurdle.
                   </p>
-                  <a href="switch-to-online/">
+                  <a href="/switch-to-online">
                     <button
                       style={{ backgroundColor: "#55198b" }}
                       className="btn btn-secondary rounded  mb-4"
@@ -117,7 +117,7 @@ class Home extends Component {
                     use various technologies to expand your business name and
                     gain more customers.
                   </p>
-                  <a href="marketing-schemes/">
+                  <a href="/marketing-schemes">
                     <button
                       style={{ backgroundColor: "#55198b" }}
                       className="btn btn-secondary rounded shadow"
@@ -144,7 +144,7 @@ class Home extends Component {
                     competitors, demands, needs and most importantly we will
                     help you with the upcoming market strategies and changes.
                   </p>
-                  <a href="business-analysis/">
+                  <a href="/business-analytics">
                     <button
                       style={{ backgroundColor: "#55198b" }}
                       className="btn btn-secondary rounded shadow"
@@ -186,7 +186,7 @@ class Home extends Component {
                     out of it. Choose us to make your startup different from
                     your competitors.
                   </p>
-                  <a href="path-to-start/">
+                  <a href="/path-to-start">
                     <button
                       style={{ backgroundColor: "#55198b" }}
                       className="btn btn-secondary rounded shadow"
