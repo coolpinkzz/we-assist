@@ -14,6 +14,26 @@ import TermsAndConditions from "./components/TermsandconditionsComponent";
 import pathtostart from "./components/PathToStartComponent/PathToStartComponent";
 import Home from "./components/HomeCompononet/HomeComponent";
 import Contactus from "./components/ContactusComponent/ContactusComponent";
+import { config } from "@fortawesome/fontawesome-svg-core";
+import firebase from "firebase";
+import "firebase/firestore";
+
+// Initialize Cloud Firestore through Firebase
+
+var firebaseConfig = {
+  apiKey: "AIzaSyDOU9lyR_rfK1xCryB5IqQphjcMlH9aPag",
+  authDomain: "we-assist-7bb5b.firebaseapp.com",
+  databaseURL: "https://we-assist-7bb5b.firebaseio.com",
+  projectId: "we-assist-7bb5b",
+  storageBucket: "we-assist-7bb5b.appspot.com",
+  messagingSenderId: "96684577166",
+  appId: "1:96684577166:web:4298800fbdf0142f1154df",
+  measurementId: "G-SEQP5K66H6",
+};
+// Initialize Firebase
+firebase.initializeApp(firebaseConfig);
+
+const db = firebase.firestore();
 
 function App() {
   return (
@@ -38,4 +58,5 @@ function App() {
   );
 }
 
+export { db };
 export default App;

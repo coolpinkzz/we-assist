@@ -1,9 +1,39 @@
-import React, { Component } from "react";
-
-import { Container } from "reactstrap";
+import React, { useState } from "react";
+import { db } from "../../App";
 import "./contactus.css";
 
 const Contactus = () => {
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [service, setService] = useState("");
+  const [phone, setPhone] = useState("");
+  const [message, setMessage] = useState("");
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    console.log("submited");
+    db.collection("contactusform")
+      .add({
+        name: name,
+        email: email,
+        service: service,
+        phone: phone,
+        message: message,
+      })
+      .then(() => {
+        alert("Message has been submited 👍");
+      })
+      .catch((error) => {
+        console.log(error);
+      });
+
+    setName("");
+    setEmail("");
+    setService("");
+    setPhone("");
+    setMessage("");
+  };
+
   return (
     <div>
       <section id="contact" className="contact-us">
@@ -63,18 +93,24 @@ const Contactus = () => {
               <div className="col-md-1 col-lg-1 col-xl-1"></div>
               <div className="col-12 col-sm-12 col-md-7 col-lg-7 col-xl-7">
                 <div className="contact">
-                  <form name="enquiry_form" method="POST" align="center">
+                  <form
+                    name="enquiry_form"
+                    onSubmit={handleSubmit}
+                    align="center"
+                  >
                     <div className="item name_email">
                       <input
                         type="text"
                         id="name"
-                        maxlength="20"
+                        maxLength="20"
+                        onChange={(e) => setName(e.target.value)}
                         className="name"
                         placeholder="Your name"
                       />
                       <input
                         type="text"
                         id="email"
+                        onChange={(e) => setEmail(e.target.value)}
                         className="email"
                         placeholder="Email"
                       />
@@ -82,15 +118,17 @@ const Contactus = () => {
                     <div className="item subject_phone">
                       <input
                         type="text"
-                        id="subject"
+                        id="service"
+                        onChange={(e) => setService(e.target.value)}
                         className="subject"
-                        maxlength="20"
+                        maxLength="20"
                         placeholder="Service"
                       />
                       <input
                         type="text"
                         id="phone"
-                        maxlength="10"
+                        onChange={(e) => setPhone(e.target.value)}
+                        maxLength="10"
                         min="10"
                         className="phone"
                         placeholder="Phone"
@@ -99,23 +137,24 @@ const Contactus = () => {
                     <div className="item">
                       <textarea
                         id="message"
-                        maxlength="150"
+                        onChange={(e) => setMessage(e.target.value)}
+                        maxLength="150"
                         className="email"
                         placeholder="Message"
                       ></textarea>
                     </div>
                     <div className="btn">
-                      <input
-                        type="button"
-                        name="enquiry_submit"
+                      <button
+                        id="submit"
                         className="enquiry_submit"
-                        value="Submit"
                         style={{
                           background: "#f48b1d",
                           border: "0",
                           padding: "0.5rem 2rem",
                         }}
-                      />
+                      >
+                        Submit
+                      </button>
                     </div>
                   </form>
                 </div>
