@@ -1,11 +1,25 @@
 import React from "react";
 import "./marketingschemes.css";
-
+import MetaTags from "react-meta-tags";
 import { Fade } from "react-reveal";
 
 const MarketingSchemes = () => {
   return (
     <div>
+      <MetaTags>
+        <meta
+          name="description"
+          content="Marketing strategies is the combination of all digitally
+                    marketing schemes, strategies and methods that are used to
+                    connect a business with right customers through various
+                    digital marketing platforms and channels."
+        />
+        <meta property="og:title" content="Marketing Schemes" />
+        <meta
+          property="og:image"
+          content="https://firebasestorage.googleapis.com/v0/b/we-assist-7bb5b.appspot.com/o/8693343.jpg?alt=media&token=05b827e7-01af-453f-a79b-56e0ea93a692"
+        />
+      </MetaTags>
       <section className="main">
         <Fade bottom duration={1000} distance="40px">
           <div className="container-fluid">

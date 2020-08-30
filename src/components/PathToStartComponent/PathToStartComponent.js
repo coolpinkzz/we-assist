@@ -12,6 +12,7 @@ import {
 } from "reactstrap";
 import "./pathtostart.css";
 import { Container } from "reactstrap";
+import MetaTags from "react-meta-tags";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faUser,
@@ -27,6 +28,20 @@ import {
 const pathtostart = () => {
   return (
     <div>
+      <MetaTags>
+        <meta
+          name="description"
+          content=" Being a part of a startup team is uniquely exciting – it provides
+            opportunities and experiences that established corporations simply
+            can't match. It's a rush, and with the right people, it can be the
+            time of your life."
+        />
+        <meta property="og:title" content=" Path to Start " />
+        <meta
+          property="og:image"
+          content="https://firebasestorage.googleapis.com/v0/b/we-assist-7bb5b.appspot.com/o/28135720.jpg?alt=media&token=108e24c7-4082-4dc8-b96b-e089b06b5219"
+        />
+      </MetaTags>
       <div className="pts row">
         <div className="moto text-center col-sm-12 col-md-6 col-lg-6 my-auto">
           <h1>Path to start (Startup) </h1>

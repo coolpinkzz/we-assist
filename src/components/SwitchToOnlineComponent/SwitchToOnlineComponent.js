@@ -1,10 +1,22 @@
 import React from "react";
 import "./switchtoonline.css";
 import { Fade } from "react-reveal";
+import MetaTags from "react-meta-tags";
 
 const Switchtoonline = () => {
   return (
     <div>
+      <MetaTags>
+        <meta
+          name="description"
+          content="Looking to take your offline business to online world? Let us help you get there. Let us worry about all the work to take your business online. We will make your personal website with the exact information, requirements and products."
+        />
+        <meta property="og:title" content="Switch to Online" />
+        <meta
+          property="og:image"
+          content="https://firebasestorage.googleapis.com/v0/b/we-assist-7bb5b.appspot.com/o/32088970.jpg?alt=media&token=6e5bcdf2-5beb-496f-bf74-27998e57c435"
+        />
+      </MetaTags>
       <div className="sto-1">
         <div className="row ">
           <Fade left duration={1000} distance="40px">

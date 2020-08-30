@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { db } from "../../App";
 import "./contactus.css";
+import MetaTags from "react-meta-tags";
 
 const Contactus = () => {
   const [name, setName] = useState("");
@@ -36,6 +37,13 @@ const Contactus = () => {
 
   return (
     <div>
+      <MetaTags>
+        <meta
+          name="description"
+          content="Feel free to conatact +91-8696216763 to get instant information on any idea we will give yu best suggestion and help your business to make it to a new heights We Assist you and make you local to global"
+        />
+        <meta property="og:title" content=" Contact us" />
+      </MetaTags>
       <section id="contact" className="contact-us">
         <div className="container">
           <div className="row">

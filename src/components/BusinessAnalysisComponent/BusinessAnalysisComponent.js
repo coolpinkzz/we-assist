@@ -2,6 +2,7 @@ import React from "react";
 import "./businessanalysis.css";
 import { Container } from "reactstrap";
 import { Fade } from "react-reveal";
+import MetaTags from "react-meta-tags";
 import {
   Row,
   Col,
@@ -17,14 +18,18 @@ import {
 const BusinessAnalysis = () => {
   return (
     <div>
-      <head>
-        <title> BUSINESS ANALYTICS </title>
-        <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
+      <MetaTags>
         <meta
           name="description"
-          Content="Business analysis involves collecting, sorting, processing, and inspecting the raw data using many ways and tools to convert the data into information and further using that information to understand the demand of consumers."
+          content="Business analysis involves collecting, sorting, processing, and inspecting the raw data using many ways and tools to convert the data into information and further using that information to understand the demand of consumers."
         />
-      </head>
+        <meta property="og:title" content=" Business Analytics " />
+        <meta
+          property="og:image"
+          content="https://firebasestorage.googleapis.com/v0/b/we-assist-7bb5b.appspot.com/o/BA.png?alt=media&token=6a9fc463-324f-403e-b7a2-062cb5baeb7c"
+        />
+      </MetaTags>
+
       <div className="jumbo">
         {" "}
         <div className="row ">

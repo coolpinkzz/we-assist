@@ -17,7 +17,7 @@ class Aboutus extends Component {
           <meta property="og:title" content="About Us" />
           <meta
             property="og:image"
-            content="https://firebasestorage.googleapis.com/v0/b/we-assist-7bb5b.appspot.com/o/logo.png?alt=media&token=ab0f8bc7-bee6-4f30-b5a2-58f8fba20179"
+            content="https://firebasestorage.googleapis.com/v0/b/we-assist-7bb5b.appspot.com/o/final%20c2%20without%20bg.png?alt=media&token=ce6a1ca4-657c-42e1-aa0e-afa69cac743c"
           />
         </MetaTags>
         <Container>
