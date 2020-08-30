@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import "./home.css";
 import { Container } from "reactstrap";
 import { Fade } from "react-reveal";
+import MetaTags from "react-meta-tags";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPhoneSquare, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
@@ -9,14 +10,18 @@ class Home extends Component {
   render() {
     return (
       <div className="home">
-        <head>
-          <title> Home </title>
-          <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
+        <MetaTags>
           <meta
             name="description"
-            Content="WE ASSIST is a step towards self-reliant India. We care your ideas and develop them more with a mix of latest digital marketing technologies to bring positive changes in new Indian brands. we are working under mission of VOCAL FOR LOCAL . Our team is set on a mission to transform the face of India in the global business industry."
+            content=" WE ASSIST is a step towards self-reliant India. We care your ideas and develop them more with a mix of latest digital marketing technologies to bring positive changes in new Indian brands. we are working under mission of VOCAL FOR LOCAL . Our team is set on a mission to transform the face of India in the global business industry."
           />
-        </head>
+          <meta property="og:title" content="  Home " />
+          <meta
+            property="og:image"
+            content="https://firebasestorage.googleapis.com/v0/b/we-assist-7bb5b.appspot.com/o/logo.png?alt=media&token=ab0f8bc7-bee6-4f30-b5a2-58f8fba20179"
+          />
+        </MetaTags>
+
         <img
           className="landart"
           src="images/we-assit art.svg"
