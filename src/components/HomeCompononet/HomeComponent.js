@@ -3,7 +3,7 @@ import "./home.css";
 import { Container } from "reactstrap";
 import { Fade } from "react-reveal";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faPhoneSquare } from "@fortawesome/free-solid-svg-icons";
+import { faPhoneSquare, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 class Home extends Component {
   render() {
@@ -24,13 +24,22 @@ class Home extends Component {
                 you are still unsure, take a tour of our website and at the end
                 you will surely want our help.
               </p>
-              <div className="row justify-content-sm-left justify-content-center my-5 ">
+              <div className="row btn-row my-5 ">
                 <a className="main-button" href="tel:8696218763">
                   Enquire Now
                   <span>
                     <FontAwesomeIcon
                       style={{ marginLeft: "5px" }}
                       icon={faPhoneSquare}
+                    />
+                  </span>
+                </a>
+                <a className="main-button" href="/contactus">
+                  Contact Us
+                  <span>
+                    <FontAwesomeIcon
+                      style={{ marginLeft: "5px" }}
+                      icon={faEnvelope}
                     />
                   </span>
                 </a>
