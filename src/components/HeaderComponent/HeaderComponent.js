@@ -51,7 +51,7 @@ class Example extends Component {
     this.setState({ dropdownOpen: false });
   }
   clicktoggle() {
-    if (this.state.isOpen == true) {
+    if (this.state.isOpen === true) {
       this.setState({ isOpen: false });
     } else this.setState({ isOpen: true });
   }
