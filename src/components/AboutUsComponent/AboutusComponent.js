@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import MetaTags from "react-meta-tags";
 
 import { Container } from "reactstrap";
 import "./aboutus.css";
@@ -7,15 +8,19 @@ class Aboutus extends Component {
   render() {
     return (
       <div className="aboutcard">
+        <MetaTags>
+          <title> About Us </title>
+          <meta
+            name="description"
+            content="WE ASSIST is a step towards self-reliant India. We care your ideas and develop them more with a mix of latest technologies to bring positive changes in new Indian brands. Our team is set on a mission to transform the face of India in the global business industry."
+          />
+          <meta property="og:title" content="About Us" />
+          <meta
+            property="og:image"
+            content="https://firebasestorage.googleapis.com/v0/b/we-assist-7bb5b.appspot.com/o/logo.png?alt=media&token=ab0f8bc7-bee6-4f30-b5a2-58f8fba20179"
+          />
+        </MetaTags>
         <Container>
-          <head>
-            <title> About Us </title>
-            <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
-            <meta
-              name="description"
-              Content="WE ASSIST is a step towards self-reliant India. We care your ideas and develop them more with a mix of latest technologies to bring positive changes in new Indian brands. Our team is set on a mission to transform the face of India in the global business industry."
-            />
-          </head>
           <h1 style={{ textAlign: "center" }}>OUR MISSION</h1>
           <p>
             <span style={{ fontFamily: "'Krona One', sans-serif" }}>

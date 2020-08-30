@@ -27,9 +27,9 @@ class Footer extends Component {
               </ul>
             </div>
             <div className="social col-12 col-sm-3 text-center">
-              <SocialIcon url="https://www.facebook.com/" />
+              <SocialIcon url="https://www.facebook.com/We-Assist-132069195031913/" />
               <SocialIcon url="https://www.linkedin.com/" />
-              <SocialIcon url="https://www.instagram.com/" />
+              <SocialIcon url="https://www.instagram.com/_we_assist_/" />
             </div>
           </div>
           <div className="text-center py-1">
