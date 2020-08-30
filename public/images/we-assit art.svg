@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="240" viewBox="0 0 1920 240">
+  <defs>
+    <clipPath id="clip-we-assit_art">
+      <rect width="1920" height="240"/>
+    </clipPath>
+  </defs>
+  <g id="we-assit_art" data-name="we-assit art" clip-path="url(#clip-we-assit_art)">
+    <rect width="1920" height="240" fill="#fff"/>
+    <g id="Ellipse_1" data-name="Ellipse 1" transform="translate(-9 -329)" fill="rgba(86,26,139,0.8)" stroke="rgba(0,0,0,0)" stroke-width="1">
+      <ellipse cx="730.5" cy="284.5" rx="730.5" ry="284.5" stroke="none"/>
+      <ellipse cx="730.5" cy="284.5" rx="730" ry="284" fill="none"/>
+    </g>
+    <g id="Ellipse_2" data-name="Ellipse 2" transform="translate(669 -329)" fill="#561a8b" stroke="rgba(207,76,149,0)" stroke-width="1" opacity="0.74">
+      <ellipse cx="629.5" cy="284.5" rx="629.5" ry="284.5" stroke="none"/>
+      <ellipse cx="629.5" cy="284.5" rx="629" ry="284" fill="none"/>
+    </g>
+  </g>
+</svg>

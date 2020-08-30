@@ -9,6 +9,11 @@ class Home extends Component {
   render() {
     return (
       <div className="home">
+        <img
+          className="landart"
+          src="images/we-assit art.svg"
+          alt="we-assit art.svg"
+        />
         <Fade bottom duration={1000} distance="40px">
           <div className="row ">
             <div className="moto  col-12  col-sm-6 text-center text-sm-left">

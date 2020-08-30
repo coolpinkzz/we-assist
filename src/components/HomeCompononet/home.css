@@ -100,3 +100,7 @@ h2 {
   transform: translateY(-3px);
   text-decoration: none;
 }
+.landart {
+  position: absolute;
+  width: 50%;
+}
