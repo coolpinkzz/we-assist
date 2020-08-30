@@ -1,0 +1,392 @@
+[33mcommit ea8571d1a1b736e350a4aa2c7d08e27fdd673dd1[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: coolpinkzz <pratik.1rn17ee029@gmail.com>
+Date:   Sun Aug 30 16:42:25 2020 +0530
+
+    yarn.lock deleted
+
+[33mcommit cb57f2ac96ba4d7100d67db8415eb388169a2ea6[m
+Author: coolpinkzz <pratik.1rn17ee029@gmail.com>
+Date:   Sun Aug 30 16:39:27 2020 +0530
+
+    revert
+
+[33mcommit d28ce325eac1f7e4ff518d25377a5a05206e7e8a[m
+Author: coolpinkzz <pratik.1rn17ee029@gmail.com>
+Date:   Sun Aug 30 16:14:08 2020 +0530
+
+    index.html meta added
+
+[33mcommit 6de00afc4a77876cce9a44fe9ae50b1924433ccc[m
+Author: coolpinkzz <pratik.1rn17ee029@gmail.com>
+Date:   Sun Aug 30 16:10:46 2020 +0530
+
+    index seo remove now
+
+[33mcommit c71d9d6d3e50e3b88f8e7d7ece06ad8a211e281a[m
+Author: coolpinkzz <pratik.1rn17ee029@gmail.com>
+Date:   Sun Aug 30 16:07:28 2020 +0530
+
+    index seo remove
+
+[33mcommit aa0b09874e42cdf0446a39ea1ba2a32be55704fc[m
+Author: coolpinkzz <pratik.1rn17ee029@gmail.com>
+Date:   Sun Aug 30 16:02:20 2020 +0530
+
+    Seo done with images
+
+[33mcommit d5c0f6008363a54a89836b8ed45e308a71491664[m
+Author: coolpinkzz <pratik.1rn17ee029@gmail.com>
+Date:   Sun Aug 30 15:28:59 2020 +0530
+
+    meta plugin
+
+[33mcommit 498bd337b157ce69b923cfd0b9ddebd554bea945[m
+Author: coolpinkzz <pratik.1rn17ee029@gmail.com>
+Date:   Sun Aug 30 14:39:12 2020 +0530
+
+    logo added
+
+[33mcommit 673ee443426b3b74e2842c0d3e396e51da2e83a7[m
+Author: coolpinkzz <pratik.1rn17ee029@gmail.com>
+Date:   Sun Aug 30 14:31:24 2020 +0530
+
+    meta image added
+
+[33mcommit e1dd4189751fe0058c1a41040e16fc87a90faf9c[m
+Merge: e485555 2fc34db
+Author: coolpinkzz <pratik.1rn17ee029@gmail.com>
+Date:   Sun Aug 30 14:27:03 2020 +0530
+
+    Merge branch 'master' of https://github.com/coolpinkzz/we-assist
+
+[33mcommit e48555545056256a66e1271b7ac9873990edeafc[m
+Author: coolpinkzz <pratik.1rn17ee029@gmail.com>
+Date:   Sun Aug 30 14:26:07 2020 +0530
+
+    seo of home and about
+
+[33mcommit 2fc34dbbb7f6e7de417e012ec9ba1da7a3754357[m
+Merge: e47f839 36ac305
+Author: coolpinkzz <52915014+coolpinkzz@users.noreply.github.com>
+Date:   Sun Aug 30 14:13:27 2020 +0530
+
+    Merge pull request #1 from coolpinkzz/dependabot/npm_and_yarn/websocket-extensions-0.1.4
+    
+    Bump websocket-extensions from 0.1.3 to 0.1.4
+
+[33mcommit e47f8391b028aec26f565f2246ae3d260b2c9cf6[m
+Merge: 610c428 9ba3ea5
+Author: coolpinkzz <52915014+coolpinkzz@users.noreply.github.com>
+Date:   Sun Aug 30 14:12:16 2020 +0530
+
+    Merge pull request #2 from coolpinkzz/dependabot/npm_and_yarn/elliptic-6.5.3
+    
+    Bump elliptic from 6.5.2 to 6.5.3
+
+[33mcommit 9ba3ea56259017c1c05d1706a74cad012b2284af[m
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Sun Aug 30 08:40:18 2020 +0000
+
+    Bump elliptic from 6.5.2 to 6.5.3
+    
+    Bumps [elliptic](https://github.com/indutny/elliptic) from 6.5.2 to 6.5.3.
+    - [Release notes](https://github.com/indutny/elliptic/releases)
+    - [Commits](https://github.com/indutny/elliptic/compare/v6.5.2...v6.5.3)
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+
+[33mcommit 36ac305e0fad399df6c49a4c57dc5ed943f45645[m
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Sun Aug 30 08:40:09 2020 +0000
+
+    Bump websocket-extensions from 0.1.3 to 0.1.4
+    
+    Bumps [websocket-extensions](https://github.com/faye/websocket-extensions-node) from 0.1.3 to 0.1.4.
+    - [Release notes](https://github.com/faye/websocket-extensions-node/releases)
+    - [Changelog](https://github.com/faye/websocket-extensions-node/blob/master/CHANGELOG.md)
+    - [Commits](https://github.com/faye/websocket-extensions-node/compare/0.1.3...0.1.4)
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+
+[33mcommit 610c428d504ccf74a980d4938b57ab99a598f5da[m
+Author: coolpinkzz <pratik.1rn17ee029@gmail.com>
+Date:   Sun Aug 30 14:08:47 2020 +0530
+
+    landing design added
+
+[33mcommit 7b03a670245bb2cb84b859f6cf7ee2f6dab5b8f4[m
+Author: coolpinkzz <pratik.1rn17ee029@gmail.com>
+Date:   Sun Aug 30 12:04:45 2020 +0530
+
+    contact us edited
+
+[33mcommit 80d462d2dfd7d52072aabce56446004936d8ff7b[m
+Author: coolpinkzz <pratik.1rn17ee029@gmail.com>
+Date:   Sun Aug 23 13:49:54 2020 +0530
+
+    contact us linked to fire base
+
+[33mcommit 1df614af85e346b3ab05035abb61fb12418c960a[m
+Author: coolpinkzz <pratik.1rn17ee029@gmail.com>
+Date:   Fri Aug 21 23:54:01 2020 +0530
+
+    contact us edited
+
+[33mcommit bdb08e4231bb2eba621ff639d95cb30ed006004b[m
+Author: coolpinkzz <pratik.1rn17ee029@gmail.com>
+Date:   Thu Aug 20 20:01:20 2020 +0530
+
+    responsive fix 2
+
+[33mcommit d6ae4d741f608d06a3936ba380cb947b95e8baae[m
+Author: coolpinkzz <pratik.1rn17ee029@gmail.com>
+Date:   Thu Aug 20 19:50:57 2020 +0530
+
+    responsive fix
+
+[33mcommit da3f587e395ffa678199d5c26b1bb096f87e2e2b[m
+Author: coolpinkzz <pratik.1rn17ee029@gmail.com>
+Date:   Wed Aug 19 22:18:26 2020 +0530
+
+    all page same
+
+[33mcommit 5d30cad1779c2006c5b7ff6671a1f7f5ac971d9b[m
+Author: coolpinkzz <pratik.1rn17ee029@gmail.com>
+Date:   Wed Aug 19 21:17:59 2020 +0530
+
+    edited graphics
+
+[33mcommit 356a9c5d9b17da87f1bfda48259d6690a65562d2[m
+Author: coolpinkzz <pratik.1rn17ee029@gmail.com>
+Date:   Mon Aug 17 18:34:55 2020 +0530
+
+    business analytics
+
+[33mcommit e58ac099fd958669819c24a6e2cd5ce772b0aa40[m
+Author: coolpinkzz <pratik.1rn17ee029@gmail.com>
+Date:   Mon Aug 17 15:11:23 2020 +0530
+
+    path-to-start done
+
+[33mcommit 3b224d39722ef4fa74ba3a2e4db7dbb6725761e6[m
+Author: coolpinkzz <pratik.1rn17ee029@gmail.com>
+Date:   Sun Aug 16 14:26:54 2020 +0530
+
+    footer done
+
+[33mcommit 698225a1bca8861486135ca535143dd36c2dbb5b[m
+Merge: b53b393 b5c5ef9
+Author: coolpinkzz <pratik.1rn17ee029@gmail.com>
+Date:   Sat Aug 15 18:40:43 2020 +0530
+
+    optimize pull
+
+[33mcommit b53b39339ff8086ccf1fd18d79b69ae36c0e53a0[m
+Author: coolpinkzz <pratik.1rn17ee029@gmail.com>
+Date:   Sat Aug 15 18:34:53 2020 +0530
+
+    optimize deleter redirects
+
+[33mcommit a83720e7b776359de582d69d6ada7609a6ce0aef[m
+Author: coolpinkzz <pratik.1rn17ee029@gmail.com>
+Date:   Sat Aug 15 18:26:56 2020 +0530
+
+    optimize
+
+[33mcommit b5c5ef9f9683dc44d009cd6a90ad21bf2d405714[m
+Author: coolpinkzz <52915014+coolpinkzz@users.noreply.github.com>
+Date:   Fri Aug 14 18:35:56 2020 +0530
+
+    Update _redirects
+
+[33mcommit 19ccc76d672e8c163f617c5f8d8ed7c4f8b4f1a5[m
+Author: coolpinkzz <52915014+coolpinkzz@users.noreply.github.com>
+Date:   Fri Aug 14 18:32:28 2020 +0530
+
+    Update _redirects
+
+[33mcommit 27566f3491386a26c2a63f14d7245680860f497c[m
+Author: coolpinkzz <pratik.1rn17ee029@gmail.com>
+Date:   Fri Aug 14 18:29:24 2020 +0530
+
+    redirects
+
+[33mcommit 6e2e701eff1bbc7ee393b90b93398b94d05f80eb[m
+Author: coolpinkzz <pratik.1rn17ee029@gmail.com>
+Date:   Thu Aug 13 00:46:42 2020 +0530
+
+    business analytics page initiated
+
+[33mcommit ee767dc64d373b4156fa3bb1f7d935f2f1fd9c58[m
+Author: coolpinkzz <pratik.1rn17ee029@gmail.com>
+Date:   Wed Aug 12 01:12:40 2020 +0530
+
+    sto bg edited
+
+[33mcommit 4fa48c26e9be9d68eb6de08b164825c3471a1fcd[m
+Author: coolpinkzz <pratik.1rn17ee029@gmail.com>
+Date:   Wed Aug 12 00:24:14 2020 +0530
+
+    bg edited
+
+[33mcommit 892c91c454c3b68a898baf89492b70128be98edb[m
+Author: coolpinkzz <pratik.1rn17ee029@gmail.com>
+Date:   Tue Aug 11 22:50:33 2020 +0530
+
+    switch to online
+
+[33mcommit b54d826526da312bc7a9f875b49571899db4e1e0[m
+Author: coolpinkzz <pratik.1rn17ee029@gmail.com>
+Date:   Sun Aug 9 14:12:39 2020 +0530
+
+    image dimension set
+
+[33mcommit be3d9e8fb35de13187722074de808235bb56ce69[m
+Author: coolpinkzz <pratik.1rn17ee029@gmail.com>
+Date:   Sun Aug 9 12:47:39 2020 +0530
+
+    iag edited
+
+[33mcommit 36f30435c29f3e45ee014d457255b8d15a829fd1[m
+Author: coolpinkzz <pratik.1rn17ee029@gmail.com>
+Date:   Sat Aug 8 16:46:45 2020 +0530
+
+    navbar toggle fix
+
+[33mcommit 2475b2d35ce876ab6c7aa7f0894636fcd6523da0[m
+Author: coolpinkzz <pratik.1rn17ee029@gmail.com>
+Date:   Sat Aug 8 12:40:46 2020 +0530
+
+    font color
+
+[33mcommit 2b09f5ee2285663aadb7c5f0d42542dc130edd3c[m
+Author: coolpinkzz <pratik.1rn17ee029@gmail.com>
+Date:   Sat Aug 8 00:17:53 2020 +0530
+
+    background done
+
+[33mcommit b9be2822618346f87bade5a2b7d7d5210daffa63[m
+Author: coolpinkzz <pratik.1rn17ee029@gmail.com>
+Date:   Fri Aug 7 16:14:16 2020 +0530
+
+    iag repalced
+
+[33mcommit f6e7c7c813d6f3f480475fb95320fce1546d6557[m
+Author: coolpinkzz <pratik.1rn17ee029@gmail.com>
+Date:   Sun Aug 2 16:10:34 2020 +0530
+
+    fade debug
+
+[33mcommit 274adee3bb9f6cb3c30072c629cfaf4a3c4f2fc3[m
+Author: coolpinkzz <pratik.1rn17ee029@gmail.com>
+Date:   Sun Aug 2 15:14:49 2020 +0530
+
+    contact delet
+
+[33mcommit eddc45f349e8c4e6a02e55161fb7b2618447fefe[m
+Author: coolpinkzz <pratik.1rn17ee029@gmail.com>
+Date:   Sun Aug 2 15:07:26 2020 +0530
+
+    ci false edited
+
+[33mcommit 4a0839052d0cc76c8e2dfbdeb862c3270722a338[m
+Author: coolpinkzz <pratik.1rn17ee029@gmail.com>
+Date:   Sun Aug 2 12:18:51 2020 +0530
+
+    package.json
+
+[33mcommit 5932961d07a6abdbe2737a8ff292dec9a888abcc[m
+Author: coolpinkzz <pratik.1rn17ee029@gmail.com>
+Date:   Sun Aug 2 12:15:53 2020 +0530
+
+    package edited
+
+[33mcommit fe5e27a56d4d5d1b76820b5a9331db8f3c2edcce[m
+Author: coolpinkzz <pratik.1rn17ee029@gmail.com>
+Date:   Sun Aug 2 12:13:23 2020 +0530
+
+    package
+
+[33mcommit bc70ef4ff9e54081943f61ae25fae5114f4a85ad[m
+Author: coolpinkzz <pratik.1rn17ee029@gmail.com>
+Date:   Sun Aug 2 12:07:00 2020 +0530
+
+    enquire button
+
+[33mcommit 5012a70e80dab1f2693b62f943611c76ee18c171[m
+Author: coolpinkzz <pratik.1rn17ee029@gmail.com>
+Date:   Sun Aug 2 11:18:35 2020 +0530
+
+    animation
+
+[33mcommit a80060515edfcd922ffc174484c6f700a3bb7084[m
+Author: coolpinkzz <pratik.1rn17ee029@gmail.com>
+Date:   Thu Jul 30 17:11:43 2020 +0530
+
+    border edited
+
+[33mcommit 1053091bd3225b93b2990089bc25090ee0c70ed7[m
+Author: coolpinkzz <pratik.1rn17ee029@gmail.com>
+Date:   Thu Jul 30 16:05:30 2020 +0530
+
+    shadow
+
+[33mcommit 4e64f16c2e8c83c57a469d44b6f087e16ad99398[m
+Author: coolpinkzz <pratik.1rn17ee029@gmail.com>
+Date:   Thu Jul 30 15:47:40 2020 +0530
+
+    border
+
+[33mcommit 465d7b0cf07647a014ebe1adeb93aa761337e7e9[m
+Author: coolpinkzz <pratik.1rn17ee029@gmail.com>
+Date:   Thu Jul 30 15:20:06 2020 +0530
+
+    footer added
+
+[33mcommit bb8f7ccd765a3da5af00513b48fb011659b354f1[m
+Author: coolpinkzz <pratik.1rn17ee029@gmail.com>
+Date:   Thu Jul 30 14:23:46 2020 +0530
+
+    services added to homepage
+
+[33mcommit cb33498a14bbdf6bacc563811dafb5effbcdd588[m
+Author: coolpinkzz <pratik.1rn17ee029@gmail.com>
+Date:   Wed Jul 29 17:37:57 2020 +0530
+
+    overflow debug
+
+[33mcommit 99364b0b1e25e7bee77fded16435cf14568dfc05[m
+Author: coolpinkzz <pratik.1rn17ee029@gmail.com>
+Date:   Wed Jul 29 17:31:19 2020 +0530
+
+    font awesome added
+
+[33mcommit 12060099eecd351d9d35f0890068f50d56a71bf7[m
+Author: coolpinkzz <pratik.1rn17ee029@gmail.com>
+Date:   Tue Jul 28 22:12:50 2020 +0530
+
+    logo edited
+
+[33mcommit 1d48fb9fffffb1c6c4472f9a2dfa31eff0aa219e[m
+Author: coolpinkzz <pratik.1rn17ee029@gmail.com>
+Date:   Tue Jul 28 14:39:56 2020 +0530
+
+    ready to netlify ci false edited
+
+[33mcommit 3eaa398033de2658a17ed8eb28d52c0350d0c76a[m
+Author: coolpinkzz <pratik.1rn17ee029@gmail.com>
+Date:   Tue Jul 28 14:35:55 2020 +0530
+
+    ready to netlify
+
+[33mcommit 9f01333fae0c0309ea40b7992306c8b7783cf023[m
+Author: coolpinkzz <pratik.1rn17ee029@gmail.com>
+Date:   Tue Jul 28 14:32:22 2020 +0530
+
+    first commit
+
+[33mcommit 655dca6413720adb831897b6bb1e25fb35c06bf7[m
+Author: coolpinkzz <pratik.1rn17ee029@gmail.com>
+Date:   Thu Jul 23 21:28:19 2020 +0530
+
+    Initialize project using Create React App
