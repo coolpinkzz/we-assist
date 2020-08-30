@@ -9,6 +9,14 @@ class Home extends Component {
   render() {
     return (
       <div className="home">
+        <head>
+          <title> Home </title>
+          <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
+          <meta
+            name="description"
+            Content="WE ASSIST is a step towards self-reliant India. We care your ideas and develop them more with a mix of latest digital marketing technologies to bring positive changes in new Indian brands. we are working under mission of VOCAL FOR LOCAL . Our team is set on a mission to transform the face of India in the global business industry."
+          />
+        </head>
         <img
           className="landart"
           src="images/we-assit art.svg"

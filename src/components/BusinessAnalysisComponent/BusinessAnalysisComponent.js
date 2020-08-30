@@ -17,6 +17,14 @@ import {
 const BusinessAnalysis = () => {
   return (
     <div>
+      <head>
+        <title> BUSINESS ANALYTICS </title>
+        <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta
+          name="description"
+          Content="Business analysis involves collecting, sorting, processing, and inspecting the raw data using many ways and tools to convert the data into information and further using that information to understand the demand of consumers."
+        />
+      </head>
       <div className="jumbo">
         {" "}
         <div className="row ">

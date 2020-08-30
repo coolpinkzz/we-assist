@@ -8,6 +8,14 @@ class Aboutus extends Component {
     return (
       <div className="aboutcard">
         <Container>
+          <head>
+            <title> About Us </title>
+            <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
+            <meta
+              name="description"
+              Content="WE ASSIST is a step towards self-reliant India. We care your ideas and develop them more with a mix of latest technologies to bring positive changes in new Indian brands. Our team is set on a mission to transform the face of India in the global business industry."
+            />
+          </head>
           <h1 style={{ textAlign: "center" }}>OUR MISSION</h1>
           <p>
             <span style={{ fontFamily: "'Krona One', sans-serif" }}>
