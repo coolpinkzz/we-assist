@@ -1,0 +1,224 @@
+.contact-us {
+  background: url("../../styles/img/new.png");
+  font-family: "Krona-one", sans-serif;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.contact-us .title-mid-head {
+  padding: 5.5% 0 5.5% 0;
+}
+.contact-us .title-mid-head h2 {
+  font-weight: 700;
+  word-spacing: 1rem;
+  margin: 0;
+}
+.contact-us .title-mid-head h2 {
+  color: #f48b1d;
+}
+.contact-us .title-mid-head p {
+  color: white;
+}
+.contact-us .contact-aling {
+}
+.contact-us .contact-aling .media {
+  color: white;
+  font-size: 15px;
+  padding-bottom: 6%;
+}
+.contact-us .contact-aling .media i {
+  font-size: 25px;
+  color: #f48b1d;
+}
+.contact-us .contact {
+  max-width: 600px;
+  width: 100%;
+  padding: 5px 25px;
+  margin: 0 auto;
+  color: #fff;
+}
+.contact-us .contact .item {
+  margin-bottom: 15px;
+  color: #fff;
+}
+.contact-us .contact .item input[type="text"],
+.contact-us .contact .item textarea {
+  width: 100%;
+  background: none;
+  border: 0;
+  border-bottom: 2px solid #fff;
+  color: #fff;
+  padding: 0 0 15px 0;
+}
+.contact-us .contact .item.name_email {
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+}
+.contact-us .contact .item.name_email input[type="text"] {
+  width: 48%;
+}
+.contact-us .contact .item.subject_phone {
+  display: flex;
+  justify-content: space-between;
+}
+.contact-us .contact .item.subject_phone input[type="text"] {
+  width: 48%;
+}
+.contact-us .contact .item textarea {
+  height: 100px;
+  resize: none;
+}
+.contact-us .contact .btn {
+  margin-top: 15px;
+  left: 0;
+  padding-left: 0;
+}
+.contact-us .contact .btn a {
+  display: block;
+  text-align: center;
+  width: 150px;
+  height: 40px;
+  line-height: 40px;
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: 3px;
+  background: #f48b1d;
+  border-radius: 1%;
+  text-decoration: none;
+  transition: all 0.5s linear;
+}
+.contact-us .contact .btn a:hover {
+  border: 2px solid #fff;
+  background: none;
+}
+::-webkit-input-placeholder {
+  color: #c4c5c6;
+}
+::-moz-input-placeholder {
+  color: #c4c5c6;
+}
+::-ms-input-placeholder {
+  color: #c4c5c6;
+}
+
+/*--Extra small devices (portrait phones, less than 576px)--*/
+@media (max-width: 575.98px) {
+  .contact-us .title-mid-head {
+    padding: 6% 0 5.5% 0;
+    color: white;
+  }
+  .contact-us .title-mid-head h2 {
+    font-weight: 600;
+    font-size: 25px;
+    margin: 0;
+    color: white;
+  }
+  .contact-us .title-mid-head h2 span {
+    color: #f48b1d;
+    color: white;
+  }
+  .contact-us .title-mid-head img {
+    width: 43%;
+  }
+  .contact-us .title-mid-head p {
+    color: black;
+    font-size: 14px;
+    color: white;
+  }
+  .contact-us .contact-aling .media {
+    color: black;
+    font-size: 14px;
+    padding-bottom: 2%;
+  }
+  .contact-us .contact-aling .media i {
+    font-size: 18px;
+    color: #f48b1d;
+  }
+  .contact-us .contact-aling .media media-body h5 {
+    color: white;
+    font-size: 16px;
+  }
+  .contact-us .contact-aling .media media-body p {
+    font-size: 14px;
+  }
+}
+
+/*--Small devices (landscape phones, 576px and up)--*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .contact-us .title-mid-head {
+    padding: 6% 0 5.5% 0;
+  }
+  .contact-us .title-mid-head h2 {
+    font-weight: 600;
+    font-size: 25px;
+    margin: 0;
+  }
+  .contact-us .title-mid-head h2 span {
+    color: #f48b1d;
+  }
+  .contact-us .title-mid-head img {
+    width: 27%;
+  }
+  .contact-us .title-mid-head p {
+    color: black;
+    font-size: 14px;
+  }
+  .contact-us .contact-aling .media {
+    color: black;
+    font-size: 14px;
+    padding-bottom: 2%;
+  }
+  .contact-us .contact-aling .media i {
+    font-size: 18px;
+    color: #f48b1d;
+  }
+  .contact-us .contact-aling .media media-body h5 {
+    color: white;
+    font-size: 16px;
+  }
+  .contact-us .contact-aling .media media-body p {
+    color: white;
+    font-size: 14px;
+  }
+}
+
+/*--Medium devices (tablets, 768px and up)--*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .contact-us .title-mid-head {
+    padding: 6% 0 5.5% 0;
+  }
+  .contact-us .title-mid-head h2 {
+    font-weight: 600;
+    font-size: 25px;
+    margin: 0;
+  }
+  .contact-us .title-mid-head h2 span {
+    color: #f48b1d;
+  }
+  .contact-us .title-mid-head img {
+    width: 27%;
+  }
+  .contact-us .title-mid-head p {
+    color: black;
+    font-size: 14px;
+  }
+  .contact-us .contact-aling .media {
+    color: black;
+    font-size: 14px;
+    padding-bottom: 2%;
+  }
+  .contact-us .contact-aling .media i {
+    font-size: 18px;
+    color: #f48b1d;
+  }
+  .contact-us .contact-aling .media media-body h5 {
+    color: white;
+    font-size: 16px;
+  }
+  .contact-us .contact-aling .media media-body p {
+    color: white;
+    font-size: 14px;
+  }
+}
+
+/*-------------------Contact us end-----------------*/

@@ -1,0 +1,15 @@
+#foot {
+  list-style: none;
+  text-decoration-color: black;
+}
+.social-svg {
+  padding: 5px;
+}
+li {
+  font-weight: bold;
+}
+.footer {
+  background: rgb(239, 243, 251);
+
+  width: 100%;
+}

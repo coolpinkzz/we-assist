@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Krona+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
+
+body {
+  overflow-x: hidden;
+}
+.brand {
+  font-family: "Krona One", sans-serif;
+  margin-left: 10px;
+  margin-top: 15px;
+}
+
+@media only screen and (max-width: 600px) {
+  .logo {
+    height: 65px !important;
+    width: 55px !important;
+  }
+  .navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 1;
+    align-items: center;
+    z-index: 1000;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: hsl(222deg 56% 96%) !important;
+  }
+  body {
+    overflow-x: hidden;
+  }
+}
+.nav-link {
+  font-family: "Poppins", sans-serif;
+}
+.nav-link:hover {
+  color: #a3a3c2 !important;
+}
+.tag-line {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+#dropdown {
+  background-color: hsl(222deg 56% 96%) !important;
+}
