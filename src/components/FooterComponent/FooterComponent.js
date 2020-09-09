@@ -28,7 +28,7 @@ class Footer extends Component {
             </div>
             <div className="social col-12 col-sm-3 text-center">
               <SocialIcon url="https://www.facebook.com/We-Assist-132069195031913/" />
-              <SocialIcon url="https://www.linkedin.com/" />
+              <SocialIcon url="https://www.linkedin.com/company/we-assist-your-business/" />
               <SocialIcon url="https://www.instagram.com/_we_assist_/" />
             </div>
           </div>
