@@ -15,7 +15,10 @@ class Home extends Component {
             name="description"
             content=" WE ASSIST is a step towards self-reliant India. We care your ideas and develop them more with a mix of latest digital marketing technologies to bring positive changes in new Indian brands. we are working under mission of VOCAL FOR LOCAL . Our team is set on a mission to transform the face of India in the global business industry."
           />
-          <meta property="og:title" content="  Home " />
+          <meta
+            property="og:title"
+            content="  We Assist - An Initiative to become Atmanirbhar "
+          />
           <meta
             property="og:image"
             content="https://firebasestorage.googleapis.com/v0/b/we-assist-7bb5b.appspot.com/o/logo.png?alt=media&token=ab0f8bc7-bee6-4f30-b5a2-58f8fba20179"
