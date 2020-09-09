@@ -65,7 +65,7 @@ const Switchtoonline = () => {
                 </li>
                 <li id="stoli">
                   <p>
-                    improved client service through greater flexibilitycost
+                    improved client service through greater flexibility ,cost,
                     savings
                   </p>
                 </li>
@@ -110,11 +110,11 @@ const Switchtoonline = () => {
                   <p>
                     {" "}
                     manage your finances, such as online banking, tax and
-                    employee
+                    employee Salaries
                   </p>
                 </li>
                 <li id="stoli">
-                  <p>research competitors.</p>
+                  <p>research competitors</p>
                 </li>
               </ul>
             </div>

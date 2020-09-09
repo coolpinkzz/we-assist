@@ -39,8 +39,8 @@ class Home extends Component {
                 all your stress aside as we can help your business to prosper.
                 We will take care of your business and come up with advanced
                 solutions, so it can grow and reach new levels of success. If
-                you are still unsure, take a tour of our website and at the end
-                you will surely want our help.
+                you are still unsure, please take a tour of our website and then
+                decide what’s best for you.
               </p>
               <div className="row btn-row my-5 ">
                 <a className="main-button" href="tel:8696218763">

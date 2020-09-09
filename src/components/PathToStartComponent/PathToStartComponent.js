@@ -49,11 +49,11 @@ const pathtostart = () => {
             Being a part of a startup team is uniquely exciting – it provides
             opportunities and experiences that established corporations simply
             can't match. It's a rush, and with the right people, it can be the
-            time of your life. There's a dark side to startups, though – because
-            no one knows what the future holds, working for one can be somewhat
-            frightening. We're not your leaders, we will do absolutely anything
-            to keep you motivated and help you fight through feelings of
-            apprehension.
+            most important time of your life. There's a dark side to startups,
+            though, because no one knows what the future holds, working for one
+            can be somewhat frightening. We're not your leaders, we will do
+            absolutely anything to keep you motivated and help you fight through
+            feelings of apprehension.
           </p>
         </div>
         <div className="col-12 col-sm-12 col-md-6 col-lg-6">
@@ -75,7 +75,7 @@ const pathtostart = () => {
                 Here at "WE ASSIST", we use the best and highly reliable digital
                 marketing techniques according to the market requirements. And
                 most importantly, these digital marketing techniques will
-                benefit ypu brand at a minimal input.
+                benefit your brand at a minimal input.
                 <br />
                 <br />
                 <h2>What we will do to help you :</h2>
@@ -140,7 +140,7 @@ const pathtostart = () => {
                 <CardText>
                   Competitive research is a crucial part of any good marketing
                   plan. This term may elicit some negative images but
-                  competitive research has nothing to do with spying.It has
+                  competitive research has nothing to do with spying. It has
                   everything to do with paying attention to your competition.
                 </CardText>
               </CardBody>
@@ -162,7 +162,7 @@ const pathtostart = () => {
 
                 <CardText>
                   Analyze new opportunities in your business by understanding
-                  your demographic better. Understand everything from
+                  your demographics better. Understand everything from
                   distribution channels to your direct competitors, and even an
                   analysis of foreign markets and other potential industries.
                 </CardText>
@@ -211,8 +211,8 @@ const pathtostart = () => {
             for you.
           </p>
           <p>
-            2. Your sales funnel illustrates the path prospects take.
-            Understanding your funnel can helps you find the holes in the funnel
+            2. Your sales funnel illustrates the path that prospects take.
+            Understanding your funnel can help you find the holes in the funnel
             — the places where prospects drop out and never convert. If you
             don’t understand your sales funnel, you can’t optimize it.
           </p>
@@ -244,9 +244,10 @@ const pathtostart = () => {
               strengths and weaknesses of their products and services.
             </p>
             <p>
+              3. Here are the steps to getting started on comepetitive research
+              :{" "}
               <ul>
-                3. Here are the steps to getting started on comepetitive
-                research :<li>Identify main competitors.</li>
+                <li>Identify main competitors.</li>
                 <li>Analyze competitors' online presence.</li>
                 <li>Gather information.</li>
                 <li>Track your findings.</li>
@@ -259,7 +260,7 @@ const pathtostart = () => {
             <h1 id="ino">Identify new opportunities</h1>
             <p>
               1. Analyze new opportunities in your business by understanding
-              your demographic better. Understand everything from distribution
+              your demographics better. Understand everything from distribution
               channels to your direct competitors, and even an analysis of
               foreign markets and other potential industries. There are likely
               dozens of new opportunities you could pursue immediately with the
@@ -269,8 +270,8 @@ const pathtostart = () => {
               2. Spotting market opportunities is essential for business growth
               and survival. Opportunities are factors that contribute to your
               growing success.
+              <p> These are typically external and include things like: </p>
               <ul>
-                These are typically external and include things like:
                 <li>economic trends</li>
                 <li>market trends</li>
                 <li>shifting or expanding customer base</li>
@@ -295,25 +296,23 @@ const pathtostart = () => {
               a list of names and addresses – as might be kept by an
               organization for sending publications to its members or customers.
             </p>
-            <p>
-              <ul>
-                2. How to build an email list?
-                <li>
-                  Quality – You want to make sure that your emails go to real
-                  people, who regularly check their emails.
-                </li>
-                <li>
-                  Relevance – Your subscribers should belong in your niche and
-                  show an interest in your industry.
-                </li>
-                <li>
-                  Volume – All throughout the process of building your list,
-                  keep in mind that the frequency of your email campaigns has to
-                  remain the same. Changing the volume as your email list grows
-                  can have a negative effect on your key metrics.
-                </li>
-              </ul>
-            </p>
+            <p>2. How to build an email list? </p>
+            <ul>
+              <li>
+                Quality – You want to make sure that your emails go to real
+                people, who regularly check their emails.
+              </li>
+              <li>
+                Relevance – Your subscribers should belong to your niche and
+                show an interest in your industry.
+              </li>
+              <li>
+                Volume – Throughout the process of building your list, keep in
+                mind that the frequency of your email campaigns has to remain
+                the same. Changing the volume as your email list grows can have
+                a negative effect on your key metrics.
+              </li>
+            </ul>
           </div>
 
           <div className="row justify-content-center">
@@ -373,7 +372,7 @@ const pathtostart = () => {
                 </CardTitle>
 
                 <CardText>
-                  Our application support & maintenance services ensure that
+                  Our application's support & maintenance services ensure that
                   your applications are always secure, bug-free and high on
                   performance paired with ongoing enhancements.
                 </CardText>

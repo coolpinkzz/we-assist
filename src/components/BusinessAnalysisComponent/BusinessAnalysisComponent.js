@@ -37,8 +37,8 @@ const BusinessAnalysis = () => {
             <h1>Business Analytics</h1>
             <hr />
             <p>
-              As the name suggest, it's all about analysis of data but it is not
-              a one-step process. Business analysis involves collecting,
+              As the name suggests, it's all about analysis of data but it is
+              not a one-step process. Business analysis involves collecting,
               sorting, processing, and inspecting the raw data using many ways
               and tools to convert the data into information and further using
               that information to understand the demand of consumers. This will
@@ -102,7 +102,7 @@ const BusinessAnalysis = () => {
 
               <CardText>
                 By viewing your brand’s capabilities, we’ll design strategic
-                plans to develop it. M.O.S.T. It stands Mission, Objective,
+                plans to develop M.O.S.T. It stands Mission, Objective,
                 Strategy, Tactics
               </CardText>
               <a style={{ padding: "1rem" }} href="#most">
@@ -125,7 +125,7 @@ const BusinessAnalysis = () => {
               <CardText>
                 Using this, we’ll turn the threats for your brand into
                 opportunities. It consists of Political, Economic , Social,
-                Technological, Legal and Environmental factor
+                Technological, Legal and Environmental factor.
               </CardText>
               <a style={{ padding: "1rem" }} href="#pestle">
                 <Button>Read More</Button>
@@ -186,12 +186,12 @@ const BusinessAnalysis = () => {
           <p> S.W.O.T. Analysis description----</p>{" "}
           <ul>
             <li id="bdescrip">
-              Strength are those things which are extremely good in your brand
+              Strengths are those things which are extremely good in your brand
               and makes you better than your competitors.
             </li>
             <li id="bdescrip">
-              Under Weaknesses we need to be realistic and list down all aspects
-              which result in decline of your business, and fix them.
+              Under Weaknesses we need to be realistic and list down all the
+              aspects which result in decline of your business, and fix them.
             </li>
             <li id="bdescrip">
               Grabbing right Opportunities is really important, we will list
@@ -211,12 +211,12 @@ const BusinessAnalysis = () => {
               which your brand wants to achieve in short-term or long-term run.
             </li>
             <li id="bdescrip">
-              Objectives are the small goals which your business need to achieve
-              in order fulfill your final aim or motive as a company.
+              Objectives are the small goals which your business needs to
+              achieve in order fulfill your final aim or motive as a company.
             </li>
             <li id="bdescrip">
               Strategy consists of all those long-term methods which will help
-              your business to reach your objectives.
+              your business to reach its objectives.
             </li>
             <li id="bdescrip">
               Tactics are the short-term methods which we will implement for
@@ -249,7 +249,7 @@ const BusinessAnalysis = () => {
             </li>
             <li id="bdescrip">
               Environmental factors will help you to know and use most
-              environment friendly and ethical.
+              environment friendly and ethical ways.
             </li>
           </ul>
           <h1 id="system">System Analysis</h1>

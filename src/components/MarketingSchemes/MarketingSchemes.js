@@ -29,7 +29,7 @@ const MarketingSchemes = () => {
                   <h1 style={{ color: "#55198b" }}>Marketing Strategies</h1>
                   <hr color="#ff458c"></hr>
                   <p>
-                    Marketing strategies is the combination of all digitally
+                    Marketing strategies is the combination of all digital
                     marketing schemes, strategies and methods that are used to
                     connect a business with right customers through various
                     digital marketing platforms and channels.
@@ -60,11 +60,11 @@ const MarketingSchemes = () => {
                   Here at "WE ASSIST", we use the best and highly reliable
                   digital marketing techniques according to the market
                   requirements. And most importantly, these digital marketing
-                  techniques will benefit ypu brand at a minimal input.
+                  techniques will benefit your brand at a minimal input.
                   <br />
                   According to the company's data, we will come up with right
                   set of measures to make sure that you achieve your maximum
-                  target audience as sson as possible.
+                  target audience as soon as possible.
                 </p>
               </div>
             </div>
@@ -104,8 +104,8 @@ const MarketingSchemes = () => {
                       <br />
                       <br />
                       The uploaded information of your servies and products on
-                      your website will give you customers and help you to lead
-                      in your field.
+                      your website will give you new customers and help you to
+                      lead in your field.
                     </p>
                   </div>
                 </div>
@@ -130,7 +130,7 @@ const MarketingSchemes = () => {
                       user-friendly can be an asset for the business. <br />
                       <br />
                       Our team will create mobile application for your brand
-                      which is user-friendly, interactive and engaging.
+                      which will be user-friendly, interactive and engaging.
                       Connecting to your audience with one click will be
                       beneficial for your business.
                     </p>
@@ -153,8 +153,8 @@ const MarketingSchemes = () => {
                   <div className="flip-card-back">
                     <p className="backp">
                       Our team will maintain a database of e-mail addresses of
-                      all the customers or audinece who can be future customers,
-                      and send them regular e-mails reagrding new services,
+                      all the customers or audience who can be future customers,
+                      and send them regular e-mails regarding new services,
                       products, offers, etc.
                       <br />
                       <br />
@@ -179,12 +179,12 @@ const MarketingSchemes = () => {
                   </div>
                   <div className="flip-card-back">
                     <p className="backaff">
-                      Its is like commission-based marketing. To implement this,
-                      we need to give some percentage of profit to affiliate for
-                      every customer they bring. These customers open the brand
-                      website using unique links which helps to differentitate
-                      them from other customers and keep ypu away from giving up
-                      more commission to affiliates.
+                      It's is like commission-based marketing. To implement
+                      this, we need to give some percentage of profit to
+                      affiliate for every customer they bring. These customers
+                      open the brand website using unique links which helps to
+                      differentitate them from other customers and keep you away
+                      from giving up more commission to affiliates.
                     </p>
                   </div>
                 </div>
@@ -209,8 +209,8 @@ const MarketingSchemes = () => {
                       this through numerous analytical tools.
                       <br />
                       <br />
-                      This will not only help us to keep track of traffic on
-                      your website but also understand it's source.Along with
+                      This will not only help us to keep the track of traffic on
+                      your website but also understand it's source. Along with
                       this, we will track the return on your investments, to
                       keep overall record of finances.
                     </p>
@@ -266,7 +266,7 @@ const MarketingSchemes = () => {
                       huge competition.
                       <br />A sound digital strategy endeavors to maximize sales
                       and at the same time, minimize customer acquisition costs.
-                      we bring a complete range of digital services for your
+                      We bring a complete range of digital services for your
                       business.{" "}
                     </p>
                   </div>
@@ -319,7 +319,7 @@ const MarketingSchemes = () => {
                       audience. Our team ensures to make content which will
                       inform the public about your services or products and
                       engage them as well.
-                      <br /> Chances of getting shared social media increases
+                      <br /> Chances of getting shared social on media increases
                       with a good content. We make great content in different
                       forms like blogs, videos, images, infographics, and so on.
                     </p>
