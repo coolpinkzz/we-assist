@@ -12,11 +12,7 @@ section {
   position: relative;
 }
 .main {
-  background-image: linear-gradient(
-    to right,
-    hsl(222deg 56% 96%),
-    rgb(94, 150, 224)
-  );
+  background-color: #f6f6f6;
 }
 .main .text-align {
   padding: 11rem 0 0 11rem;
@@ -52,11 +48,7 @@ section {
   padding: 11rem 0 0 11rem;
 }
 .poten {
-  background-image: linear-gradient(
-    to right,
-    hsl(222deg 56% 96%),
-    rgb(94, 150, 224)
-  );
+  background-color: #f6f6f6;
 }
 /*----Extra small devices (portrait phones, less than 576px)--*/
 @media (max-width: 575.98px) {

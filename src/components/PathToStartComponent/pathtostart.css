@@ -1,10 +1,6 @@
 .pts,
 .pts-poten {
-  background-image: linear-gradient(
-    to right,
-    hsl(222deg 56% 96%),
-    rgb(94, 150, 224)
-  );
+  background-color: #f6f6f6;
 }
 
 .card {
@@ -33,6 +29,12 @@ li {
 }
 .expertcard {
   height: auto !important;
+}
+.after-potential {
+  background-image: url("../../styles/img/bg5.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 @media screen and (max-width: 1000px) {

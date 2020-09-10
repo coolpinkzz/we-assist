@@ -1,9 +1,5 @@
 .sto-1 {
-  background-image: linear-gradient(
-    to right,
-    hsl(222deg 56% 96%),
-    rgb(94, 150, 224)
-  );
+  background-color: #f6f6f6;
 }
 p {
   font-family: "Montserrat", sans-serif;
@@ -18,11 +14,7 @@ h1 {
   color: "#55198b" !important;
 }
 .sto-2 {
-  background-image: linear-gradient(
-    to right,
-    hsl(222deg 56% 96%),
-    rgb(94, 150, 224)
-  );
+  background-color: #f6f6f6;
   background-position: center;
   color: rgb(255, 255, 255);
   background-attachment: fixed;
@@ -30,6 +22,12 @@ h1 {
 }
 .overlay {
   background-color: rgba(0, 0, 0, 0.6);
+}
+.what-we-will-do {
+  background-image: url("../../styles/img/bg5.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 @media (max-width: 600px) {
