@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
 import Example from "./components/HeaderComponent/HeaderComponent";
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
 
 import Aboutus from "./components/AboutUsComponent/AboutusComponent";
 
@@ -14,7 +14,7 @@ import TermsAndConditions from "./components/TermsandconditionsComponent";
 import pathtostart from "./components/PathToStartComponent/PathToStartComponent";
 import Home from "./components/HomeCompononet/HomeComponent";
 import Contactus from "./components/ContactusComponent/ContactusComponent";
-import { config } from "@fortawesome/fontawesome-svg-core";
+
 import firebase from "firebase";
 import "firebase/firestore";
 
@@ -50,6 +50,7 @@ function App() {
           <Route path="/privacy-policy" component={Privacy} />
           <Route path="/terms-and-conditions" component={TermsAndConditions} />
           <Route path="/contactus" component={Contactus} />
+          <Redirect to="/" />
         </Switch>
 
         <Footer />

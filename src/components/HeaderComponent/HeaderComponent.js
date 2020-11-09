@@ -1,18 +1,19 @@
-import React, { useState, Component } from "react";
+import React, { Component } from "react";
+import { Link } from 'react-router-dom'
 import Headroom from "react-headroom";
 import {
   Collapse,
   Navbar,
   NavbarToggler,
-  NavbarBrand,
+
   Nav,
   NavItem,
-  NavLink,
+
   UncontrolledDropdown,
   DropdownToggle,
   DropdownMenu,
   DropdownItem,
-  NavbarText,
+
 } from "reactstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -61,7 +62,8 @@ class Example extends Component {
       color: "#0C0032",
       padding: "10px",
       fontFamily: "'Poppins', sans-serif",
-      marginLeft: "10px",
+      textDecoration: "none"
+
     };
     return (
       <div>
@@ -78,13 +80,16 @@ class Example extends Component {
             expand="md"
           >
             <Container>
+
+
               <img
                 className="logo mt-0"
                 style={{ height: "auto", width: "4%" }}
                 src="images/finallogo2.png"
                 alt="logo"
               />
-              <NavbarBrand className="brand " href="/">
+              <div className="brand " to="/">
+
                 <h4>We Assist</h4>
                 <p
                   className="d-none d-sm-block"
@@ -95,17 +100,17 @@ class Example extends Component {
                 >
                   An Inititative to become Atmanirbhar
                 </p>
-              </NavbarBrand>
+              </div>
               <NavbarToggler onClick={this.clicktoggle} />
               <Collapse isOpen={this.state.isOpen} navbar>
                 <Nav className="ml-auto " navbar>
-                  <NavItem>
-                    <NavLink style={mystyle} href="/">
+                  <NavItem className="d-flex">
+                    <Link style={mystyle} to="/">
                       <span>
                         <FontAwesomeIcon icon={faHome} />{" "}
                       </span>
                       Home
-                    </NavLink>
+                    </Link>
                   </NavItem>
                   <UncontrolledDropdown
                     onMouseOver={this.onMouseEnter}
@@ -116,7 +121,7 @@ class Example extends Component {
                     inNavbar
                   >
                     <DropdownToggle style={mystyle} nav caret>
-                      {" "}
+
                       <span>
                         <FontAwesomeIcon icon={faCog} />{" "}
                       </span>
@@ -128,40 +133,40 @@ class Example extends Component {
                       style={mystyle}
                       right
                     >
-                      <NavLink href="/switch-to-online">
+                      <Link className="dropdownstyle" to="/switch-to-online">
                         <DropdownItem>Switch to Online</DropdownItem>
-                      </NavLink>
+                      </Link>
                       <DropdownItem divider />
-                      <NavLink href="/marketing-schemes">
+                      <Link className="dropdownstyle" to="/marketing-schemes">
                         <DropdownItem>Marketing Schemes</DropdownItem>
-                      </NavLink>
+                      </Link>
                       <DropdownItem divider />
-                      <NavLink href="/business-analytics">
+                      <Link className="dropdownstyle" to="/business-analytics">
                         <DropdownItem>Business Analytics</DropdownItem>
-                      </NavLink>
+                      </Link>
                       <DropdownItem divider />
-                      <NavLink href="/path-to-start">
+                      <Link className="dropdownstyle" to="/path-to-start">
                         <DropdownItem>Path to Start-Startup</DropdownItem>
-                      </NavLink>
+                      </Link>
                     </DropdownMenu>
                   </UncontrolledDropdown>
-                  <NavItem>
-                    <NavLink style={mystyle} href="/aboutus">
+                  <NavItem className="d-flex">
+                    <Link style={mystyle} to="/aboutus">
                       <span>
                         {" "}
                         <FontAwesomeIcon icon={faUser} />{" "}
                       </span>
                       About us
-                    </NavLink>
+                    </Link>
                   </NavItem>
-                  <NavItem>
-                    <NavLink style={mystyle} href="/contactus">
+                  <NavItem className="d-flex">
+                    <Link style={mystyle} to="/contactus">
                       <span>
                         {" "}
                         <FontAwesomeIcon icon={faPhoneSquare} />{" "}
                       </span>
                       Contact us
-                    </NavLink>
+                    </Link>
                   </NavItem>
                 </Nav>
               </Collapse>

@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from 'react-router-dom'
 import "./home.css";
 import { Container } from "reactstrap";
 import { Fade } from "react-reveal";
@@ -32,11 +33,15 @@ class Home extends Component {
         />
         <Fade bottom duration={1000} distance="40px">
           <div className="row ">
+
+
             <div className="moto  col-12  col-sm-6 text-center text-sm-left">
+
               <h1 style={{ color: "#55198b" }} id="heading">
                 WE THINK ABOUT YOU AND YOUR FUTURE !
               </h1>
               <hr color="#ff458c"></hr>
+
               <p className="my-5">
                 Running a business can be a difficult job sometimes, but keep
                 all your stress aside as we can help your business to prosper.
@@ -55,7 +60,7 @@ class Home extends Component {
                     />
                   </span>
                 </a>
-                <a className="main-button" href="/contactus">
+                <Link className="main-button" to="/contactus">
                   Contact Us
                   <span>
                     <FontAwesomeIcon
@@ -63,7 +68,7 @@ class Home extends Component {
                       icon={faEnvelope}
                     />
                   </span>
-                </a>
+                </Link>
               </div>
             </div>
 
@@ -71,14 +76,14 @@ class Home extends Component {
               style={{ paddingLeft: "6rem" }}
               className="col-12 col-sm-6 col-md-6 d-none d-sm-block  "
             >
-              <img id="poster" src="images/poster.jpg" />
+              <img id="poster" alt='images/poster.jpg' src="images/poster.jpg" />
             </div>
           </div>
         </Fade>
 
         <div className="iag row py-5 justify-content-center">
           <img
-            style={{ width: "70%", height: "600px" }}
+            style={{ width: "70%", height: "auto" }}
             id="iag"
             src="images/front.png"
             alt="Ideal action and Goal"
@@ -105,14 +110,14 @@ class Home extends Component {
                     products. By applying safe methods of online financial work
                     through us, you can track your profit without any hurdle.
                   </p>
-                  <a href="/switch-to-online">
+                  <Link to="/switch-to-online">
                     <button
                       style={{ backgroundColor: "#55198b" }}
                       className="btn btn-secondary rounded  mb-4"
                     >
-                      Go to Service{" "}
+                      Go to Service
                     </button>
-                  </a>
+                  </Link>
                 </div>
                 <div className="col-12  col-sm-6 col-md-6 text-center pr-5">
                   <img
@@ -147,14 +152,14 @@ class Home extends Component {
                     use various technologies to expand your business name and
                     gain more customers.
                   </p>
-                  <a href="/marketing-schemes">
+                  <Link to="/marketing-schemes">
                     <button
                       style={{ backgroundColor: "#55198b" }}
                       className="btn btn-secondary rounded shadow"
                     >
                       Go to Service{" "}
                     </button>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </Fade>
@@ -174,14 +179,14 @@ class Home extends Component {
                     competitors, demands, needs and most importantly we will
                     help you with the upcoming market strategies and changes.
                   </p>
-                  <a href="/business-analytics">
+                  <Link to="/business-analytics">
                     <button
                       style={{ backgroundColor: "#55198b" }}
                       className="btn btn-secondary rounded shadow"
                     >
                       Go to Service{" "}
                     </button>
-                  </a>
+                  </Link>
                 </div>
                 <div className="col-12 col-sm-6 col-md-6 text-center">
                   <img
@@ -216,14 +221,14 @@ class Home extends Component {
                     out of it. Choose us to make your startup different from
                     your competitors.
                   </p>
-                  <a href="/path-to-start">
+                  <Link to="/path-to-start">
                     <button
                       style={{ backgroundColor: "#55198b" }}
                       className="btn btn-secondary rounded shadow"
                     >
                       Go to Service{" "}
                     </button>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </Fade>

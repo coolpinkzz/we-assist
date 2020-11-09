@@ -17,6 +17,9 @@
     width: auto !important;
     height: auto !important;
   }
+  .landart{
+    display: none;
+  }
 }
 .moto {
   background-color: linear-gradient(
